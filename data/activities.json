@@ -1,0 +1,2105 @@
+[
+  {
+    "id": "r_p_1",
+    "code": "R-P-1",
+    "title": "Nordic Women's Health Research Career Program",
+    "subtitle": "Research Domain — People Pillar",
+    "domain": "Research",
+    "pillar": "People",
+    "loop": "Produce",
+    "timeline": "2027–2035",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "No structured career pathway for women's health researchers; talent dispersed across disciplines without shared identity or methodology training",
+      "to": "A Nordic cross-border career programme producing 20–30 scholars per cohort with sex-stratified methodology expertise, shared identity, and 35%+ grant success rates"
+    },
+    "description": [
+      "This programme establishes structured pathways for researchers to develop expertise in women's health and sex-stratified methodology, modelled on the NIH BIRCWH programme which has trained 750+ scholars with a 38% grant success rate versus a 29% baseline. Fellows receive 2–3 year postdoctoral or junior faculty fellowships with a minimum 75% protected research time — the critical ingredient that universities often resist but that determines whether career development actually happens.",
+      "The programme includes team mentoring from senior researchers across disciplines, methodological training in sex-stratified research design, female preclinical models and statistical power for subgroup analysis, and cross-border cohort building through annual Nordic meetings. The unique Nordic value lies in combining the BIRCWH fellowship model with access to Nordic population registries and biobanks that no single-country programme can match.",
+      "The programme is hosted across 5–10 Nordic universities, coordinated by NordForsk and implemented through the Forte research centres opened in 2025. Career development training covers grant writing, publication strategy, and leadership skills — addressing the structural disadvantage that women's health researchers face from needing larger samples for sex-stratified power and having fewer high-impact journal options."
+    ],
+    "evidence": "NIH BIRCWH: 750+ scholars, 38% grant success rate, $15M/year across 19 US institutions. CIHR Institute of Gender and Health: mandatory SGBA+ training model. UK Wellbeing of Women Research Training Fellowships: up to £300K/fellow. Marie Skłodowska-Curie Fellowships: EU cross-border mobility model.",
+    "builds_on": [
+      {
+        "name": "Forte SEK 255M Research Centres",
+        "detail": "Training mandate, calls opened 2025"
+      },
+      {
+        "name": "NIH BIRCWH Program",
+        "detail": "Proven model: 750+ scholars, 19 US institutions"
+      },
+      {
+        "name": "CIHR Institute of Gender and Health",
+        "detail": "SGBA+ mandatory training"
+      },
+      {
+        "name": "Marie Skłodowska-Curie Fellowships",
+        "detail": "EU cross-border mobility model"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Programme designed, first cohort recruited",
+        "20–30 scholars trained per cohort",
+        "Self-sustaining pipeline with alumni network"
+      ],
+      "handoff": [
+        "Forte centres incorporate WH modules",
+        "Graduates appointed to CoE faculty",
+        "Alumni author Care domain education content (C-P-1)"
+      ],
+      "outcome": [
+        "Increased applications to WH research posts",
+        ">35% grant success rate for alumni",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Fund programme design and coordination; NordForsk endorsement",
+      "national": "Host fellowships at universities; integrate with national research council funding",
+      "regional": "Provide clinical research placements in hospital settings"
+    },
+    "lead": "NordForsk (coordination) + Forte centres (implementation)",
+    "investment": "€3–5M/year",
+    "cross_links": [
+      {
+        "direction": "Downstream",
+        "code": "C-P-1",
+        "description": "Research domain trains experts who author Care education materials"
+      },
+      {
+        "direction": "Downstream",
+        "code": "R-P-2",
+        "description": "Career programme graduates staff Centres of Excellence"
+      }
+    ]
+  },
+  {
+    "id": "r_p_2",
+    "code": "R-P-2",
+    "title": "Nordic Centres of Excellence in Women's Health Research",
+    "subtitle": "Research Domain — People Pillar",
+    "domain": "Research",
+    "pillar": "People",
+    "loop": "Produce",
+    "timeline": "2026–2032",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "Women's health research fragmented across institutions with no critical mass, limited interdisciplinary collaboration, and no dedicated centres",
+      "to": "Dedicated Nordic centres providing critical mass for women's health research, training the next generation, and serving as authoritative evidence sources for Care and Innovation domains"
+    },
+    "description": [
+      "Establish and strengthen dedicated Centres of Excellence for women's health research across the Nordic region, building on Sweden's Forte investment (SEK 255M, calls opened 2025). These centres create the critical mass needed for interdisciplinary collaboration, provide institutional homes for career programme graduates (R-P-1), and serve as authoritative evidence sources that inform clinical guidelines (C-Po-1) and education materials (C-P-1). The centres bridge basic science, clinical research, and population health — ensuring that women's health is treated as a distinct research discipline rather than a subset of reproductive medicine. Each centre develops specialisation aligned with national strengths while maintaining Nordic coordination through NordForsk."
+    ],
+    "evidence": "Sweden's Forte announced SEK 255M for women's health research centres in 2025, with an explicit training mandate. International models include the NIH Specialized Centers of Research (SCOR) on Sex Differences and the UK Women's Health Research Centres. Evidence shows that concentrated research investment produces 3-5x more high-impact publications than equivalent distributed funding.",
+    "builds_on": [
+      {
+        "name": "Forte SEK 255M Research Centres (Sweden, 2025)",
+        "detail": "Direct foundation — calls opened with training mandate"
+      },
+      {
+        "name": "NIH SCOR on Sex Differences",
+        "detail": "Model for specialised research centres"
+      },
+      {
+        "name": "Karolinska Centre for Gender Medicine",
+        "detail": "Existing Nordic centre demonstrating institutional model"
+      },
+      {
+        "name": "Charité Gender Medicine Unit (Germany)",
+        "detail": "European model for academic gender medicine"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Forte centres established; research agendas defined",
+        "5+ centres operational across 3+ Nordic countries",
+        "Nordic network of 8-10 centres with global recognition"
+      ],
+      "handoff": [
+        "First publications from centres inform C-Po-1 guideline development",
+        "Centre evidence systematically feeds clinical guidelines and Innovation domain",
+        "Centres serve as permanent authoritative source for Nordic women's health evidence"
+      ],
+      "outcome": [
+        "Women's health research output increases 20% in centre countries",
+        "Nordic women's health publication impact factor rises to top-5 globally",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk coordinates cross-border centre network; harmonises research agendas",
+      "national": "National research councils fund centres aligned with national strengths",
+      "regional": "University hospitals host centres; provide clinical research infrastructure"
+    },
+    "lead": "Forte (Sweden, first mover) + NordForsk (Nordic coordination) + national research councils",
+    "investment": "SEK 255M (Forte centres, calls opened 2025) + parallel national investments",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-P-1",
+        "description": "Career programme graduates staff Centres of Excellence"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-Po-1",
+        "description": "Centre evidence informs clinical guideline development"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-P-1",
+        "description": "Centre researchers author HCP education materials"
+      },
+      {
+        "direction": "Parallel",
+        "code": "R-M-1",
+        "description": "Discipline attraction funding brings new talent into centres"
+      }
+    ]
+  },
+  {
+    "id": "r_m_1",
+    "code": "R-M-1",
+    "title": "Discipline Attraction Funding Calls",
+    "subtitle": "Research Domain — Money Pillar",
+    "domain": "Research",
+    "pillar": "Money",
+    "loop": "Produce",
+    "timeline": "2026–2028",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Women's health research draws from a narrow pool of already-committed researchers; adjacent fields (cardiology, neurology, AI) rarely cross over",
+      "to": "Targeted funding calls that actively attract researchers from adjacent disciplines into women's health, with mentorship pairing and preclinical model development"
+    },
+    "description": [
+      "These funding calls specifically invite applications from researchers with no prior women's health focus, drawing talent from cardiology, neurology, immunology, and AI/data science. The calls address the structural problem that women's health research has been treated as a niche rather than a cross-cutting priority, meaning the field lacks the disciplinary diversity needed for breakthrough progress.",
+      "Mentorship pairing costs are explicitly eligible — researchers will not switch fields if they must work in isolation. A preclinical and basic science priority topic focuses on development of validated female animal models, closing a critical model validation gap that undermines translational research. Success is measured by the number of first-time women's health grant recipients from other disciplines, tracking genuine field expansion rather than recirculation of existing funding."
+    ],
+    "evidence": "Forte (Sweden) research council precedent for cross-disciplinary calls. International evidence shows targeted attraction calls increase field diversity by 25–40% within two funding cycles.",
+    "builds_on": [
+      {
+        "name": "Forte (Sweden)",
+        "detail": "National research council with women's health mandate"
+      },
+      {
+        "name": "Nordic national research councils",
+        "detail": "Existing cross-disciplinary funding mechanisms"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Calls launched across 3+ countries",
+        "50+ first-time WH grants awarded",
+        "Sustained cross-disciplinary pipeline"
+      ],
+      "handoff": [
+        "New researchers connected to WH mentors",
+        "Cross-disciplinary publications emerging",
+        "Adjacent-field researchers become WH leaders"
+      ],
+      "outcome": [
+        "Increased diversity of WH research applications",
+        "New female preclinical models validated",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Coordinate call design across councils",
+      "national": "Launch calls through national research councils",
+      "regional": "University departments promote calls to adjacent researchers"
+    },
+    "lead": "Forte (Sweden) + national research councils",
+    "investment": "€2–4M across national councils",
+    "cross_links": [
+      {
+        "direction": "Downstream",
+        "code": "R-P-1",
+        "description": "Attracted researchers become candidates for career programme"
+      },
+      {
+        "direction": "Parallel",
+        "code": "R-M-2",
+        "description": "Catalytic Fund provides next-stage funding for cross-disciplinary projects"
+      }
+    ]
+  },
+  {
+    "id": "r_m_2",
+    "code": "R-M-2",
+    "title": "Nordic Women's Health Catalytic Fund",
+    "subtitle": "Research Domain — Money Pillar",
+    "domain": "Research",
+    "pillar": "Money",
+    "loop": "Produce",
+    "timeline": "2028–2032",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "Fragmented national funding with no coordinated Nordic mechanism for cross-border women's health research",
+      "to": "A virtual pot model where national research councils contribute to common funding pools, NordForsk coordinates joint calls, and projects must involve 3+ Nordic countries with cross-border data linkage"
+    },
+    "description": [
+      "The Catalytic Fund operates as a virtual pot model: national research councils (Forte, RCN, Academy of Finland, and others) contribute to a common funding pool while NordForsk coordinates joint calls. This is aggregate funding across councils, not a single source — NordForsk typically funds networking and coordination rather than large grants directly.",
+      "Focus areas target conditions where Nordic registry linkage adds unique value: endometriosis, PCOS, cardiovascular sex differences, menopause, and maternal health. The requirement that projects involve researchers from at least three Nordic countries and use cross-border data linkage ensures the fund produces research that no single country could achieve alone. This leverages the distinctive Nordic asset — linked population registries across 27 million people — to generate evidence at a scale that attracts global attention and justifies sustained investment."
+    ],
+    "evidence": "Denmark 160M DKK (Oct 2025) national women's health research investment demonstrates political will. NordForsk virtual pot model proven in other research domains. IHI and EIT Health co-investment structures provide alignment models.",
+    "builds_on": [
+      {
+        "name": "Denmark 160M DKK Investment (Oct 2025)",
+        "detail": "National proof of political will — ~€21M"
+      },
+      {
+        "name": "NordForsk Virtual Pot Model",
+        "detail": "Proven coordination mechanism"
+      },
+      {
+        "name": "IHI / EIT Health",
+        "detail": "EU public-private co-investment structures"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Fund governance established",
+        "€20M deployed across 15+ projects",
+        "Self-sustaining with new national commitments"
+      ],
+      "handoff": [
+        "First joint calls issued",
+        "Research outputs feed Innovation domain (I-D-1)",
+        "Catalytic Fund evidence justifies Care reimbursement (C-M-1)"
+      ],
+      "outcome": [
+        "Cross-border research collaborations formed",
+        "Registry-linked studies publish novel findings",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk coordinates governance and joint calls",
+      "national": "Research councils commit funding contributions",
+      "regional": "University hospitals provide clinical research sites"
+    },
+    "lead": "NordForsk (coordination) + national research councils (funding)",
+    "investment": "€20M aggregate over 5 years (virtual pot)",
+    "cross_links": [
+      {
+        "direction": "Downstream",
+        "code": "I-M-1",
+        "description": "Investment Guidelines create demand signal; Catalytic Fund provides fundable projects"
+      },
+      {
+        "direction": "Downstream",
+        "code": "I-D-1",
+        "description": "Federated research data trains Intelligence Layer"
+      },
+      {
+        "direction": "Via Translation Highway",
+        "code": "C-Po-1",
+        "description": "Guideline Council defines 'Unsolved Clinical Problems' that become Catalytic Fund 'Targeted Calls'"
+      }
+    ]
+  },
+  {
+    "id": "r_m_3",
+    "code": "R-M-3",
+    "title": "Horizon Europe Integration",
+    "subtitle": "Research Domain — Money Pillar",
+    "domain": "Research",
+    "pillar": "Money",
+    "loop": "Produce",
+    "timeline": "2032–2040 (advocacy begins 2026)",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "EU gender dimension treated as ex-aequo tiebreaker rather than substantive research quality criterion; no dedicated women's health funding stream",
+      "to": "Sex-stratified methodology as a substantive Horizon Europe evaluation criterion, with a dedicated Women's Health Mission or Partnership in FP10"
+    },
+    "description": [
+      "This activity pursues two-track advocacy for EU Framework Programme 10. The first track strengthens evaluation criteria: currently, Horizon Europe's gender dimension is primarily ex-aequo (tiebreaker), not a raw score contributor. The Charter advocates for sex-stratified methodology as a substantive criterion that affects scoring directly. The second track advocates for a dedicated Women's Health Mission or Partnership — modelled on the Cancer Mission — which secures funding more effectively than scoring adjustments alone.",
+      "Norway's 2027 NCM presidency provides a coordination window for aligning Nordic positions. The two tracks are complementary: even if a dedicated Mission takes time to establish, strengthened evaluation criteria can be achieved within existing programme structures. Early advocacy from 2026 positions the Nordic countries to influence FP10 design before structures are locked in."
+    ],
+    "evidence": "Horizon Europe gender dimension: mandatory by default, €2B+ invested in WH projects but primarily through tiebreaker mechanism. EU Cancer Mission model demonstrates effectiveness of dedicated funding streams.",
+    "builds_on": [
+      {
+        "name": "Horizon Europe Gender Dimension",
+        "detail": "Existing mandatory requirement — needs strengthening from tiebreaker to substantive criterion"
+      },
+      {
+        "name": "EU Cancer Mission",
+        "detail": "Model for dedicated health funding stream"
+      },
+      {
+        "name": "Norway 2027 NCM Presidency",
+        "detail": "Coordination window for Nordic position"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Nordic position paper drafted",
+        "Position submitted to FP10 consultation",
+        "FP10 includes WH criteria or Mission"
+      ],
+      "handoff": [
+        "NCM presidency carries advocacy forward",
+        "EU-level discussion references Nordic position",
+        "Funded EU WH projects use Nordic frameworks"
+      ],
+      "outcome": [
+        "Awareness of Nordic WH leadership at EU level",
+        "Increased EU funding for sex-stratified research",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM coordinates position paper; NordForsk leads technical input",
+      "national": "National EU delegations carry Nordic position",
+      "regional": "University researchers provide case studies for advocacy"
+    },
+    "lead": "NCM + national EU delegations",
+    "investment": "Advocacy costs only (€0.5–1M)",
+    "cross_links": [
+      {
+        "direction": "Parallel",
+        "code": "R-Po-3",
+        "description": "Nordic Position for EU Framework Programme — same advocacy, policy framing"
+      },
+      {
+        "direction": "Upstream",
+        "code": "R-M-2",
+        "description": "Catalytic Fund demonstrates Nordic research capacity that justifies EU investment"
+      }
+    ]
+  },
+  {
+    "id": "r_po_1",
+    "code": "R-Po-1",
+    "title": "Sex-Stratified Analysis Mandate",
+    "subtitle": "Research Domain — Policy Pillar",
+    "domain": "Research",
+    "pillar": "Policy",
+    "loop": "Produce",
+    "timeline": "2026–2028",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "Sex-stratified analysis is optional in most Nordic research funding; results routinely aggregate across sexes, obscuring clinically significant differences",
+      "to": "All publicly funded health research includes a sex-stratified analysis plan at application; funded studies report sex-disaggregated results with an exception pathway for justified single-sex studies"
+    },
+    "description": [
+      "This mandate requires all publicly funded health research to include a sex-stratified analysis plan at the application stage, with funded studies reporting sex-disaggregated results. An exception pathway exists for justified single-sex studies. The mandate addresses the root cause of the evidence gap: when research aggregates results across sexes, clinically significant differences in drug response, disease progression, and treatment outcomes remain invisible.",
+      "Canada's CIHR SGBA+ policy achieved 69% compliance after mandatory implementation, demonstrating that mandate-driven approaches work when combined with training and review process changes. The US NIH SABV policy has required sex as a biological variable in vertebrate and human studies since 2016. Sweden's Vetenskapsrådet is positioned as the model implementation, with NordForsk driving Nordic adoption. The mandate creates the evidence foundation that every downstream activity depends on — without sex-stratified data, clinical guidelines, AI tools, and reimbursement models all perpetuate existing gaps."
+    ],
+    "evidence": "CIHR SGBA+ policy (Canada): 69% compliance after mandatory implementation. NIH SABV policy (USA): required since 2016 for vertebrate/human studies. EU Clinical Trials Regulation: supports but doesn't mandate sex-stratified analysis.",
+    "builds_on": [
+      {
+        "name": "CIHR SGBA+ Policy (Canada)",
+        "detail": "69% compliance achieved — proven mandate model"
+      },
+      {
+        "name": "NIH SABV Policy (USA)",
+        "detail": "Sex as biological variable required since 2016"
+      },
+      {
+        "name": "Vetenskapsrådet (Sweden)",
+        "detail": "Positioned as Nordic first-mover"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Mandate adopted by 2+ national councils",
+        "All 5 Nordic councils implement",
+        "Mandate embedded in all health research funding"
+      ],
+      "handoff": [
+        "Research applications include analysis plans",
+        "Published research reports sex-disaggregated results",
+        "Sex-stratified evidence feeds clinical guidelines (C-Po-1)"
+      ],
+      "outcome": [
+        "Baseline compliance rate established",
+        ">60% compliance rate",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk adopts mandate for cross-border calls",
+      "national": "Research councils mandate in funding criteria",
+      "regional": "University ethics boards include sex-stratification review"
+    },
+    "lead": "Vetenskapsrådet (Sweden, model) → NordForsk (Nordic adoption)",
+    "investment": "Minimal (policy change)",
+    "cross_links": [
+      {
+        "direction": "Downstream (Accelerator Chain)",
+        "code": "I-Po-1",
+        "description": "Sandbox validates tools built on sex-stratified evidence"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-M-1",
+        "description": "Finance Ministries need rigorous sex-stratified evidence to approve new payment models"
+      }
+    ]
+  },
+  {
+    "id": "r_po_2",
+    "code": "R-Po-2",
+    "title": "Women's Health Promotion Criteria",
+    "subtitle": "Research Domain — Policy Pillar",
+    "domain": "Research",
+    "pillar": "Policy",
+    "loop": "Produce",
+    "timeline": "2028–2032",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Academic promotion criteria disadvantage women's health researchers who need larger samples for sex-stratified power and have fewer high-impact journal options",
+      "to": "Universities weight women's health publications and grants in tenure and promotion decisions, correcting structural bias"
+    },
+    "description": [
+      "Career incentives currently disadvantage women's health researchers in two structural ways: sex-stratified research requires larger sample sizes to achieve statistical power for subgroup analysis, making studies more expensive and time-consuming, and the field has fewer high-impact journal options than established specialities. This activity works with Nordic university associations and medical faculties to add women's health research contributions to academic promotion criteria.",
+      "The change is straightforward in principle but requires sustained institutional engagement. Women's health publications and grants are weighted in tenure and promotion decisions, creating positive career incentives that complement the Career Program (R-P-1) and Discipline Attraction calls (R-M-1). Without this policy correction, researchers who enter the field through those programmes face career penalties that drive them back to better-rewarded specialities."
+    ],
+    "evidence": "Structural analysis of publication metrics shows women's health researchers publish 15–20% fewer papers in top-tier journals due to field size, not quality. Promotion criteria reform has precedent in sustainability research and global health.",
+    "builds_on": [
+      {
+        "name": "Nordic University Associations",
+        "detail": "Existing governance structures for promotion criteria"
+      },
+      {
+        "name": "Medical Faculty Standards",
+        "detail": "Discipline-specific promotion pathways"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Proposal developed with university associations",
+        "3+ Nordic universities adopt criteria",
+        "Standard across all Nordic medical faculties"
+      ],
+      "handoff": [
+        "Career programme alumni benefit from new criteria",
+        "Increased applications for WH academic positions",
+        "WH research attracts top talent competitively"
+      ],
+      "outcome": [
+        "Awareness of structural bias in promotion",
+        "Measurable increase in WH faculty appointments",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Nordic university associations coordinate policy discussion",
+      "national": "National medical faculties adopt criteria changes",
+      "regional": "Individual universities pilot new promotion frameworks"
+    },
+    "lead": "Nordic university associations + medical faculties",
+    "investment": "Minimal (policy change)",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-P-1",
+        "description": "Career programme creates researchers who need supportive promotion criteria"
+      },
+      {
+        "direction": "Upstream",
+        "code": "R-M-1",
+        "description": "Attracted researchers need career sustainability"
+      }
+    ]
+  },
+  {
+    "id": "r_po_3",
+    "code": "R-Po-3",
+    "title": "Nordic Position for EU Framework Programme",
+    "subtitle": "Research Domain — Policy Pillar",
+    "domain": "Research",
+    "pillar": "Policy",
+    "loop": "Produce",
+    "timeline": "Advocacy 2026–2028 | Implementation FP10 2028+",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Nordic countries advocate individually at EU level; no coordinated position on women's health in research framework programmes",
+      "to": "A unified Nordic position paper for FP10 combining strengthened evaluation criteria with a dedicated Women's Health Mission or Partnership proposal"
+    },
+    "description": [
+      "This activity develops a coordinated Nordic position paper for EU Framework Programme 10, complementing the funding advocacy in R-M-3 with a policy framing. The two-track approach advocates for sex-stratified methodology as a substantive evaluation criterion (not just a tiebreaker) and for a dedicated funding stream modelled on the EU Cancer Mission.",
+      "A coordinated Nordic position carries more weight than five individual country submissions. Norway's 2027 NCM presidency provides a natural coordination window. The position paper draws on evidence from the Catalytic Fund (R-M-2), the sex-stratified mandate (R-Po-1), and the Data Dictionary (R-D-1) to demonstrate that the Nordic countries have both the infrastructure and the political will to lead EU-level change in health research methodology."
+    ],
+    "evidence": "EU Cancer Mission demonstrates effectiveness of coordinated advocacy for dedicated health research streams. Nordic countries' combined voice in EU frameworks has historically been influential when coordinated.",
+    "builds_on": [
+      {
+        "name": "Horizon Europe Gender Dimension",
+        "detail": "Existing framework — position paper proposes strengthening"
+      },
+      {
+        "name": "Norway 2027 NCM Presidency",
+        "detail": "Coordination window"
+      },
+      {
+        "name": "Nordic research cooperation track record",
+        "detail": "Credibility for coordinated positions"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Position paper drafted and endorsed by 5 countries",
+        "Paper submitted to FP10 stakeholder consultation",
+        "FP10 structure reflects Nordic proposals"
+      ],
+      "handoff": [
+        "NCM carries position through presidency sequence",
+        "EU research policy community engages with proposals",
+        "FP10 funded projects use Nordic WH standards"
+      ],
+      "outcome": [
+        "Nordic WH research visibility at EU level",
+        "Influence on FP10 design",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM coordinates drafting; research ministries endorse",
+      "national": "National EU delegations present position",
+      "regional": "University researchers provide supporting evidence"
+    },
+    "lead": "NCM + national research ministries",
+    "investment": "Minimal (advocacy coordination)",
+    "cross_links": [
+      {
+        "direction": "Parallel",
+        "code": "R-M-3",
+        "description": "Same advocacy, funding framing — policy and money tracks reinforce each other"
+      }
+    ]
+  },
+  {
+    "id": "r_d_1",
+    "code": "R-D-1",
+    "title": "Nordic Women's Health Data Dictionary",
+    "subtitle": "Research Domain — Data Pillar",
+    "domain": "Research",
+    "pillar": "Data",
+    "loop": "Produce",
+    "timeline": "2026–2028",
+    "impact": "HIGH",
+    "ehds": true,
+    "transformation": {
+      "from": "No standardised terminology for women's health conditions across Nordic registries; cross-border data linkage hindered by inconsistent coding",
+      "to": "A shared data dictionary enabling cross-border linkage and federated analysis for women's health conditions using OMOP Common Data Model standards"
+    },
+    "description": [
+      "This activity creates standardised terminology and coding for women's health conditions across Nordic registries, enabling the cross-border data linkage and federated analysis that makes Nordic research uniquely powerful. The scope covers reproductive health, menopause, PCOS, endometriosis, cardiovascular sex differences, and mental health presentations.",
+      "The Data Dictionary builds on the OMOP Common Data Model and aligns with the European Health Data Space regulatory framework. This is assessed as low-hanging fruit for early wins because it aligns with existing international standards rather than creating new ones. The critical urgency comes from the EHDS implementing acts being finalised 2026–2028, with secondary use regulations applicable from March 2029. If women's health variables are not advocated into data dictionaries during this window, gaps will be locked in for a generation.",
+      "The Data Dictionary is the foundation for the entire data infrastructure across all three domains. Research uses it for federated cohort analysis (R-D-2), Innovation uses it for the Intelligence Layer (I-D-1), and Care uses it for PROM infrastructure (C-D-1). Without common standards, each domain builds incompatible data systems."
+    ],
+    "evidence": "EHDEN (European Health Data & Evidence Network): data standardisation model. EHDS: regulatory framework enabling cross-border data use. OHDSI/OMOP: global standard for harmonising health data.",
+    "builds_on": [
+      {
+        "name": "EHDEN",
+        "detail": "European federated data network and standardisation model"
+      },
+      {
+        "name": "EHDS",
+        "detail": "Regulatory framework for cross-border health data — implementing acts 2026–2028"
+      },
+      {
+        "name": "OHDSI / OMOP CDM",
+        "detail": "Global common data model standard"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Draft dictionary covering 6 condition areas",
+        "Adopted by 3+ Nordic data offices",
+        "Standard reference across all Nordic registries"
+      ],
+      "handoff": [
+        "Dictionary submitted to EHDS consultation process",
+        "Innovation domain (I-P-1) Ambassadors embed in EU standards",
+        "Care domain PROMs (C-D-1) use dictionary definitions"
+      ],
+      "outcome": [
+        "Common variables defined for cross-border research",
+        "Federated analysis possible across Nordic registries",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk coordinates dictionary development",
+      "national": "Health data offices adopt standards",
+      "regional": "Registry operators implement coding"
+    },
+    "lead": "EHDEN network + Nordic health data offices",
+    "investment": "€1–2M",
+    "cross_links": [
+      {
+        "direction": "Downstream (Accelerator Chain)",
+        "code": "I-P-1",
+        "description": "Ambassadors embed Data Dictionary in EHDS standards"
+      },
+      {
+        "direction": "Downstream",
+        "code": "I-D-1",
+        "description": "Intelligence Layer uses dictionary for standardised variables"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-D-1",
+        "description": "PROM infrastructure uses dictionary definitions"
+      },
+      {
+        "direction": "Downstream",
+        "code": "R-D-2",
+        "description": "Federated Cohort requires common data standards"
+      }
+    ]
+  },
+  {
+    "id": "r_d_2",
+    "code": "R-D-2",
+    "title": "Nordic Young Women's Federated Cohort",
+    "subtitle": "Research Domain — Data Pillar",
+    "domain": "Research",
+    "pillar": "Data",
+    "loop": "Produce",
+    "timeline": "2028–2035 (enrichment) | 2035+ (follow-up)",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "Massive Nordic cohorts exist (MoBa 100K+, NSHDS 140K+) but lack granular hormonal and reproductive data; starting new cohorts would duplicate rather than build on assets",
+      "to": "Existing cohorts federated and enriched with menstrual cycle tracking, hormonal biomarkers, and early reproductive health indicators — linked to Nordic registries for complete health trajectory tracking"
+    },
+    "description": [
+      "Rather than establishing a new 50,000-person cohort, this activity federates existing Nordic cohorts and enriches them with granular women's health data collection. The revision from 'establish' to 'federate' reflects the core insight: the Nordics already have massive cohorts (MoBa 100K+, NSHDS 140K+, Danish national biobanks, Finnish biobank network), but these older cohorts miss granular hormonal and reproductive data because they were designed before women's health was prioritised as a research domain.",
+      "Enrichment adds menstrual cycle tracking, hormonal biomarkers, and early reproductive health indicators currently missing from legacy cohorts. The unique value lies in linking these enriched datasets to Nordic population registries, enabling complete health trajectory tracking from adolescence through menopause and beyond — a capability not possible anywhere else in the world. Federation avoids duplication while adding women's health-specific data layers that transform existing assets into globally unique research resources."
+    ],
+    "evidence": "MoBa (Norway): 100,000+ participants. NSHDS (Sweden): 140,000+ participants. Nordic registry linkage provides complete health trajectory tracking unique globally.",
+    "builds_on": [
+      {
+        "name": "MoBa (Norwegian Mother, Father and Child Cohort)",
+        "detail": "100,000+ participants — enrichment target"
+      },
+      {
+        "name": "NSHDS (Northern Sweden Health and Disease Study)",
+        "detail": "140,000+ participants"
+      },
+      {
+        "name": "Danish National Biobanks and Registries",
+        "detail": "Comprehensive national coverage"
+      },
+      {
+        "name": "Finnish Biobank Network",
+        "detail": "Federated biobank infrastructure"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Federation governance agreed; enrichment protocol designed",
+        "3+ cohorts enriched with WH variables",
+        "Federated cohort established as permanent infrastructure"
+      ],
+      "handoff": [
+        "Data Dictionary (R-D-1) standards adopted for enrichment",
+        "Intelligence Layer (I-D-1) trained on federated data",
+        "Care guidelines (C-Po-1) reference federated cohort evidence"
+      ],
+      "outcome": [
+        "Enrichment pilot data available",
+        "Novel findings from registry-linked WH data",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk coordinates federation governance",
+      "national": "Cohort stewards agree enrichment protocols",
+      "regional": "University hospitals contribute clinical data linkage"
+    },
+    "lead": "NordForsk + existing cohort stewards",
+    "investment": "€5–10M over enrichment phase",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-D-1",
+        "description": "Uses Data Dictionary for standardised variable definitions"
+      },
+      {
+        "direction": "Downstream",
+        "code": "I-D-1",
+        "description": "Intelligence Layer trained on federated cohort data"
+      }
+    ]
+  },
+  {
+    "id": "r_d_3",
+    "code": "R-D-3",
+    "title": "Women's Health AI/ML Toolkit",
+    "subtitle": "Research Domain — Data Pillar",
+    "domain": "Research",
+    "pillar": "Data",
+    "loop": "Produce",
+    "timeline": "2030–2040",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "AI/ML tools trained predominantly on male data perpetuate bias; no purpose-built analytical tools for women's health research",
+      "to": "Open-source AI/ML toolkit with algorithms validated on female populations, menstrual cycle phase adjustment, pregnancy-safe models, and sex-difference bias detection"
+    },
+    "description": [
+      "Current AI and machine learning tools used in health research are trained predominantly on male data, perpetuating bias in every analysis they produce. This activity develops open-source analytical tools specifically designed for women's health research, including algorithms validated on female populations, menstrual cycle phase adjustment capabilities, pregnancy-safe models, and bias detection mechanisms for identifying sex differences.",
+      "The toolkit addresses a fundamental methodological gap: researchers currently lack computational tools that account for female-specific biological variation. When standard AI tools analyse women's health data, they apply models calibrated to male physiology, producing results that range from inaccurate to dangerous. Purpose-built tools are required to make the research infrastructure match the research ambition."
+    ],
+    "evidence": "FEMaLe Project (Horizon 2020): AI platform for endometriosis with participatory design — proof of concept. European AI initiatives (EuroLLM, OpenEuroLLM) provide foundation models.",
+    "builds_on": [
+      {
+        "name": "FEMaLe Project (Horizon 2020)",
+        "detail": "AI for endometriosis — proof of concept"
+      },
+      {
+        "name": "EuroLLM / OpenEuroLLM",
+        "detail": "European foundation models as base layer"
+      },
+      {
+        "name": "RADAR-base",
+        "detail": "Open-source remote data collection from wearables"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Toolkit specifications defined",
+        "Alpha release with cycle-phase adjustment",
+        "Full toolkit with bias detection and pregnancy-safe models"
+      ],
+      "handoff": [
+        "Research teams pilot toolkit modules",
+        "Innovation domain (I-D-1) integrates toolkit",
+        "Care domain AI tools (C-Po-1) built on validated algorithms"
+      ],
+      "outcome": [
+        "WH researchers have sex-aware computational tools",
+        "Published research uses validated female models",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk funds development consortium",
+      "national": "AI centres contribute development capacity",
+      "regional": "University hospitals validate tools clinically"
+    },
+    "lead": "Academic institutions + AI centres",
+    "investment": "€3–5M",
+    "cross_links": [
+      {
+        "direction": "Downstream",
+        "code": "I-D-1",
+        "description": "Intelligence Layer builds on toolkit algorithms"
+      },
+      {
+        "direction": "Upstream",
+        "code": "R-D-2",
+        "description": "Federated Cohort provides validation data"
+      }
+    ]
+  },
+  {
+    "id": "c_p_1",
+    "code": "C-P-1",
+    "title": "Healthcare Professional Education Programme",
+    "subtitle": "Care Domain — People Pillar",
+    "domain": "Care",
+    "pillar": "People",
+    "loop": "Adopt",
+    "timeline": "2026–2030 (voluntary) | 2030+ (mandatory advocacy)",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "No Nordic country mandates women's health training beyond reproductive medicine; GPs lack competence in menopause, pain disorders, and women's CVD",
+      "to": "Nordic micro-modules with CME/CPD credits deployed across existing platforms, progressing from voluntary uptake to mandatory curriculum integration"
+    },
+    "description": [
+      "This programme develops and deploys Nordic micro-modules (15–30 minutes each) with CME/CPD credits covering menopause, pain disorders, and women's cardiovascular disease. The modules are designed for mobile-first, bite-sized learning — busy GPs complete modules between patients, not in evening lectures. Integration uses existing Nordic CME platforms rather than building new delivery infrastructure.",
+      "The phased approach starts with voluntary integration (2026–2028, targeting 50% GP completion of at least one module), progresses to advocacy for mandatory women's health competency in medical curricula, GP specialisation, and nursing programmes (2028–2030, targeting 70% uptake), and aims for mandatory inclusion in all Nordic medical training and recertification from 2030 onward. England introduced a mandatory women's health curriculum for all graduating medical students from the 2024/25 academic year — no Nordic country currently mandates women's health in medical training beyond reproductive medicine.",
+      "The fastest entry point is professional medical associations and CME micro-modules, which create practitioner demand that pulls university curricula forward. Education ministry coordination follows through NCM, respecting sovereign curriculum authority."
+    ],
+    "evidence": "England: mandatory women's health curriculum implemented 2024/25 academic year. Germany: Charité Gender Medicine Unit + first EU professorship in gender medicine. Switzerland: Professor of Gender Medicine (Zurich, 2023).",
+    "builds_on": [
+      {
+        "name": "England Mandatory Curriculum (2024/25)",
+        "detail": "First-mover precedent for mandatory WH training"
+      },
+      {
+        "name": "Nordic CME/CPD Platforms",
+        "detail": "Existing delivery infrastructure"
+      },
+      {
+        "name": "NFOG / NFGP",
+        "detail": "Nordic specialist and primary care networks"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Modules developed for 3 priority areas",
+        "70% GP uptake across Nordic countries",
+        "Mandatory in all Nordic medical training"
+      ],
+      "handoff": [
+        "Modules available on existing CME platforms",
+        "Universities integrate WH content",
+        "80% public symptom recognition (via C-P-2)"
+      ],
+      "outcome": [
+        "Module completion and assessment rates tracked",
+        "Reduced time-to-diagnosis in pilot regions",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Fund module development; coordinate content; NFOG endorsement",
+      "national": "Integrate into national CME platforms; advocate for curriculum mandate",
+      "regional": "Hospital/clinic training days; require completion for employment"
+    },
+    "lead": "NCM (coordination) + NFOG (specialist) + NFGP (primary care)",
+    "investment": "€2–4M (module development + platform integration)",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-P-1",
+        "description": "Research career programme graduates author education materials"
+      },
+      {
+        "direction": "Parallel",
+        "code": "C-Po-1",
+        "description": "Guidelines define what HCPs need to know; education builds capability to deliver"
+      }
+    ]
+  },
+  {
+    "id": "c_p_2",
+    "code": "C-P-2",
+    "title": "Public Health Literacy Campaigns",
+    "subtitle": "Care Domain — People Pillar",
+    "domain": "Care",
+    "pillar": "People",
+    "loop": "Adopt",
+    "timeline": "2026–2030 (campaigns) | 2030+ (sustained)",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Low public recognition of women-specific health symptoms; women delay help-seeking due to normalisation of pain and menopausal symptoms",
+      "to": "Coordinated Nordic campaigns normalising help-seeking for menopause, reducing diagnostic delay for pain conditions, and raising awareness of female-specific CVD symptoms"
+    },
+    "description": [
+      "Three coordinated Nordic campaigns target the priority pathways: 'Midlife Transition' normalises help-seeking and symptom recognition for menopause; 'Pain Matters' targets the 7–10 year diagnostic delay for endometriosis; and 'Heart Health for Women' raises awareness of female-specific cardiovascular symptoms and risk factors that standard public health messaging misses.",
+      "Political engagement is built into the campaign structure through annual Nordic Parliamentary Briefings on Women's Health presented to health committees in all five countries, targeting women's health on every Nordic health ministry's annual priority list by 2030. This activity explicitly bridges the Care domain and the Awareness foundation layer — public literacy campaigns require the cultural legitimacy that Awareness creates, while generating the public demand that sustains political commitment to Care investments."
+    ],
+    "evidence": "UK Women's Health Strategy public engagement model. Nordic public health campaign infrastructure and multilingual communication experience.",
+    "builds_on": [
+      {
+        "name": "Nordic Public Health Authorities",
+        "detail": "Existing campaign infrastructure and reach"
+      },
+      {
+        "name": "Patient Organisations",
+        "detail": "Advocacy networks and lived experience"
+      },
+      {
+        "name": "EIT Health Scandinavia",
+        "detail": "Health innovation communication expertise"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Campaign materials developed for 3 pathways",
+        "Campaigns running in all 5 countries",
+        "Sustained awareness programmes"
+      ],
+      "handoff": [
+        "Parliamentary briefings scheduled",
+        "Women's health on ministry priority lists",
+        "Public demand sustains Care investment"
+      ],
+      "outcome": [
+        "Campaign reach and engagement metrics",
+        "Reduced time from symptom to GP visit",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM coordinates campaign framework; EIT Health provides reach",
+      "national": "Health authorities localise and deliver campaigns",
+      "regional": "Patient organisations drive grassroots engagement"
+    },
+    "lead": "NCM (coordination) + national health authorities + patient organisations",
+    "investment": "€1–3M per campaign wave",
+    "cross_links": [
+      {
+        "direction": "Bridge",
+        "code": "A-2",
+        "description": "Awareness Life-Course Education Pipeline creates the cultural foundation campaigns draw on"
+      },
+      {
+        "direction": "Parallel",
+        "code": "C-M-2",
+        "description": "Health economics data quantifies burden; campaigns make it visible"
+      }
+    ]
+  },
+  {
+    "id": "c_m_1",
+    "code": "C-M-1",
+    "title": "Value-Based Reimbursement Pilots",
+    "subtitle": "Care Domain — Money Pillar",
+    "domain": "Care",
+    "pillar": "Money",
+    "loop": "Adopt",
+    "timeline": "2026–2028 (pilots) | 2028–2032 (scale) | 2032+ (standard)",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "Reimbursement systems reward volume of care, not quality of outcomes; no financial incentive to improve women's quality of life",
+      "to": "Quality-adjusted payment mechanisms linking reimbursement to demonstrated QoL improvements in women's health pathways, piloted regionally and scaled Nordic-wide"
+    },
+    "description": [
+      "This activity pilots quality-adjusted payment mechanisms that link reimbursement to demonstrated quality-of-life improvements in women's health pathways. Regional health authorities implement the pilots; the Nordic level provides evaluation methodology and cross-country learning. The recommended minimum viable approach is add-on payments — bonus payments for achieving QoL improvement thresholds — which have the lowest technical barrier and work with existing billing systems.",
+      "More complex mechanisms (bundled care payments, quality-adjusted DRG weights) can follow once add-on pilots succeed, building on Stockholm's OrtoChoice bundled care experience and Sweden's SVEUS national collaboration for value-based monitoring. The critical design principle: Nordic level provides methodology and evaluation standards, while regional level retains budget authority and implementation control. A willing region can pilot without waiting for national or Nordic consensus.",
+      "Critical dependency: C-M-1 requires C-D-1 (PROM Infrastructure) integration into payment triggers. The PROM infrastructure is the billing infrastructure — a region cannot pay for QoL improvements if its IT system cannot ingest QoL scores. The sequencing must be C-D-1 first, then C-M-1."
+    ],
+    "evidence": "Sweden VBHC pilots: Stockholm bundled care, Västra Götaland VBHC programmes. SVEUS: Swedish national VBHC monitoring. Denmark DRG with quality indicators.",
+    "builds_on": [
+      {
+        "name": "Sweden VBHC Pilots",
+        "detail": "Stockholm bundled care, Västra Götaland programmes"
+      },
+      {
+        "name": "SVEUS Project",
+        "detail": "Swedish national value-based monitoring"
+      },
+      {
+        "name": "Denmark DRG System",
+        "detail": "Quality indicators in existing payment structure"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Pilot design with add-on payment model",
+        "5+ regions piloting",
+        "Value-based payment standard across Nordics"
+      ],
+      "handoff": [
+        "PROM data (C-D-1) feeding payment triggers",
+        "Pilot results inform national adoption",
+        "Sex-stratified evidence (R-Po-1) justifies payment models"
+      ],
+      "outcome": [
+        "Pilot regions show QoL-payment linkage works",
+        "Measurable QoL improvement in pilot pathways",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk provides evaluation methodology (NO payment authority)",
+      "national": "Health ministries endorse pilot frameworks",
+      "regional": "Regional health authorities implement (Regioner/SE, Regions/DK, Helse/NO, Hyvinvointialueet/FI)"
+    },
+    "lead": "Regional health authorities (implementation) + NordForsk (evaluation)",
+    "investment": "€3–5M (pilot phase across regions)",
+    "cross_links": [
+      {
+        "direction": "Critical Dependency",
+        "code": "C-D-1",
+        "description": "PROM infrastructure must be in place before payment pilots — PROMs ARE the billing data"
+      },
+      {
+        "direction": "Upstream (Accelerator Chain)",
+        "code": "I-Po-1",
+        "description": "Sandbox-validated tools justify reimbursement"
+      },
+      {
+        "direction": "Upstream",
+        "code": "R-Po-1",
+        "description": "Sex-stratified evidence legitimises payment model design"
+      }
+    ]
+  },
+  {
+    "id": "c_m_2",
+    "code": "C-M-2",
+    "title": "Nordic Health Economics Methodology",
+    "subtitle": "Care Domain — Money Pillar",
+    "domain": "Care",
+    "pillar": "Money",
+    "loop": "Adopt",
+    "timeline": "2026–2028 (methodology) | 2028+ (national adoption)",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "No shared methodology for quantifying the economic burden of women's health conditions across Nordic countries; each country produces incomparable analyses",
+      "to": "A harmonised Nordic methodology enabling cross-country comparison, credible aggregate data for EU advocacy, and annual reporting that feeds parliamentary briefings"
+    },
+    "description": [
+      "This activity develops a shared Nordic methodology for women's health burden-of-disease analysis and cost-effectiveness evaluation. The key insight is that health budgets are national and regional — international coherence will not happen through top-down mandate. But shared methodology enables cross-country comparison, produces credible Nordic aggregate data for EU advocacy, and reduces duplication of analytical effort.",
+      "Three components form the methodology: a Nordic Women's Health Burden Report quantifying economic burden (sick leave, productivity, healthcare costs) using harmonised methods; a cost-effectiveness framework adaptable to each country's HTA process; and an annual 'State of Nordic Women's Health' report providing economic impact data that feeds parliamentary briefings. The methodology is modelled on UK NICE health economics approaches — rigorous, transparent, and adaptable. Each country applies the shared methodology to its national budget context and HTA process."
+    ],
+    "evidence": "UK NICE health economics methodology: gold standard for cost-effectiveness evaluation. Nordic HTA bodies: Folkehelseinstituttet (NO), TLV (SE), DEFACTUM (DK), THL (FI).",
+    "builds_on": [
+      {
+        "name": "UK NICE Methodology",
+        "detail": "Gold standard health economics — model for rigour and transparency"
+      },
+      {
+        "name": "Nordic HTA Bodies",
+        "detail": "Folkehelseinstituttet (NO), TLV (SE), DEFACTUM (DK), THL (FI)"
+      },
+      {
+        "name": "OECD/EU SROI Frameworks",
+        "detail": "Social return on investment methodology"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Methodology framework published",
+        "All 5 countries produce comparable burden reports",
+        "Annual State of Nordic Women's Health established"
+      ],
+      "handoff": [
+        "First burden estimates available for parliamentary briefings",
+        "Economic data supports Care investment cases (C-M-1)",
+        "EU advocacy uses Nordic aggregate data (R-M-3)"
+      ],
+      "outcome": [
+        "Women's health burden quantified comparably",
+        "Parliamentary briefings reference economic data",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk commissions methodology development",
+      "national": "HTA bodies adopt shared framework",
+      "regional": "Regional authorities use burden data for budget allocation"
+    },
+    "lead": "NordForsk (commission) + national HTA bodies",
+    "investment": "€1–2M (methodology development)",
+    "cross_links": [
+      {
+        "direction": "Parallel",
+        "code": "C-P-2",
+        "description": "Health economics data feeds parliamentary briefings; campaigns make burden visible"
+      },
+      {
+        "direction": "Upstream (Accelerator Chain)",
+        "code": "I-M-1",
+        "description": "Investment Guidelines create demand; health economics demonstrates ROI"
+      }
+    ]
+  },
+  {
+    "id": "c_po_1",
+    "code": "C-Po-1",
+    "title": "Nordic Clinical Guidelines Programme",
+    "subtitle": "Care Domain — Policy Pillar",
+    "domain": "Care",
+    "pillar": "Policy",
+    "loop": "Adopt",
+    "timeline": "2026–2028 (CVD) | 2028–2032 (Menopause/Pain) | 2035–2040 (Living Platform)",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "No Nordic-harmonised clinical guidelines for women's health priority conditions; clinical practice varies widely across and within countries",
+      "to": "Phased rollout of evidence-based guidelines starting with CVD, expanding to menopause and pain, culminating in a Living Guideline Platform with continuous updates and full EHR integration"
+    },
+    "description": [
+      "The guidelines programme begins with cardiovascular disease (2026–2028), establishing a Nordic CVD Risk Assessment Task Force that integrates female-specific risk factors — pregnancy complications, PCOS, premature menopause, inflammatory conditions — into risk prediction tools. Validation studies across 5,000+ women per country produce a Nordic CVD Risk Assessment Tool delivered as a digital clinical decision support tool integrated into EHR systems, not just a PDF.",
+      "Phase 2 addresses menopause (2028–2032, leveraging Sweden's October 2025 national guidelines) and pain disorders (2030–2035, targeting reduction of the 7–10 year endometriosis diagnostic delay to under 2 years). Phase 3 consolidates pathway-specific tools into a Nordic Living Guideline Platform — a continuously updated digital decision support system with QoL-first pathway design, sex/gender-aware assessment modules, and standardised outcome reporting dashboards.",
+      "Phase 1–2 guidelines use best available evidence from existing research. The Living Guideline Platform is designed to incorporate improved sex-stratified evidence from Research domain activities as it becomes available — guidelines are transitional by design, not static endpoints. The Guideline Council holds a permanent seat on the Catalytic Fund Steering Committee (R-M-2), enabling Care to define 'Unsolved Clinical Problems' that become Research 'Targeted Calls' — closing the loop between clinical need and research investment."
+    ],
+    "evidence": "FINRISK (Finland), NORRISK2 (Norway), SCORE2 (European) for CVD risk assessment. Sweden Oct 2025 menopause guidelines. ESHRE guidelines for endometriosis. UK Women's Health Hubs integrated service model.",
+    "builds_on": [
+      {
+        "name": "FINRISK / NORRISK2 / SCORE2",
+        "detail": "Existing CVD risk tools — need female-specific enhancement"
+      },
+      {
+        "name": "Sweden National Menopause Guidelines (Oct 2025)",
+        "detail": "First-mover for Nordic scaling"
+      },
+      {
+        "name": "ESHRE Endometriosis Guidelines",
+        "detail": "International pain management foundation"
+      },
+      {
+        "name": "UK Women's Health Hubs",
+        "detail": "Integrated service delivery model — 42 ICSs"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "CVD Task Force established; Phase 1 guidelines drafted",
+        "Menopause and Pain guidelines published",
+        "Living Guideline Platform operational"
+      ],
+      "handoff": [
+        "Guidelines available as digital decision support",
+        "EHR integration in pilot regions",
+        "All Nordic EHR systems integrated"
+      ],
+      "outcome": [
+        "Clinicians access women-specific CVD risk tools",
+        "Diagnostic delays reduced in pilot pathways",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM mandates and funds; NFOG provides specialist content",
+      "national": "Health directorates adopt (rotating secretariat: SE→DK→NO)",
+      "regional": "Hospitals implement guidelines; track compliance"
+    },
+    "lead": "NCM + NFOG + NFGP + NordForsk (evidence synthesis)",
+    "investment": "€5–8M across phases",
+    "cross_links": [
+      {
+        "direction": "Via Translation Highway",
+        "code": "R-M-2",
+        "description": "Guideline Council defines clinical problems → Catalytic Fund issues targeted calls"
+      },
+      {
+        "direction": "Upstream",
+        "code": "I-Po-1",
+        "description": "Sandbox-validated AI tools become guideline recommendations"
+      },
+      {
+        "direction": "Upstream",
+        "code": "I-D-1",
+        "description": "Intelligence Layer enables sophisticated PROM analysis"
+      }
+    ]
+  },
+  {
+    "id": "c_po_2",
+    "code": "C-Po-2",
+    "title": "Care Pathway Standards",
+    "subtitle": "Care Domain — Policy Pillar",
+    "domain": "Care",
+    "pillar": "Policy",
+    "loop": "Adopt",
+    "timeline": "2026–2030",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "No standardised pathway performance metrics for women's health conditions; diagnostic waiting times, referral criteria, and handoff protocols vary arbitrarily",
+      "to": "Defined pathway performance standards with maximum diagnostic waiting times, mandatory PROM collection points, referral criteria, and handoff protocols enabling regional adoption with measurement comparability"
+    },
+    "description": [
+      "This activity defines pathway performance standards for women's health priority conditions, establishing maximum diagnostic waiting times, mandatory PROM collection points, referral criteria, and handoff protocols. The standards enable regional adoption while ensuring measurement comparability across the Nordic countries.",
+      "The UK Women's Health Hubs model — integrated service delivery being rolled out across all 42 Integrated Care Systems — provides the reference for what integrated pathway standards look like in practice. The standards complement clinical guidelines (C-Po-1) by defining the operational infrastructure through which guideline recommendations are delivered, ensuring that evidence-based care reaches women consistently regardless of where they live."
+    ],
+    "evidence": "UK Women's Health Hubs: integrated service delivery across 42 ICSs. Nordic quality registry infrastructure for pathway monitoring.",
+    "builds_on": [
+      {
+        "name": "UK Women's Health Hubs",
+        "detail": "Integrated pathway model — all 42 ICSs"
+      },
+      {
+        "name": "Nordic Quality Registries",
+        "detail": "Existing monitoring infrastructure"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Standards defined for priority conditions",
+        "Regional adoption across 3+ countries",
+        "Compliance mechanisms operational"
+      ],
+      "handoff": [
+        "Standards aligned with guidelines (C-Po-1)",
+        "Registry integration (C-D-2) tracks compliance",
+        "Reimbursement (C-M-1) linked to pathway adherence"
+      ],
+      "outcome": [
+        "Waiting time benchmarks established",
+        "Reduced variation in pathway performance",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Coordinate standard development",
+      "national": "Health directorates adopt standards",
+      "regional": "Health authorities implement and measure"
+    },
+    "lead": "National health directorates + regional health authorities",
+    "investment": "€1–2M",
+    "cross_links": [
+      {
+        "direction": "Parallel",
+        "code": "C-Po-1",
+        "description": "Guidelines define best practice; pathway standards define delivery infrastructure"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-D-2",
+        "description": "Registry integration tracks pathway compliance"
+      }
+    ]
+  },
+  {
+    "id": "c_d_1",
+    "code": "C-D-1",
+    "title": "Women's Health PROM Infrastructure",
+    "subtitle": "Care Domain — Data Pillar",
+    "domain": "Care",
+    "pillar": "Data",
+    "loop": "Adopt",
+    "timeline": "2026–2028 (pilots) | 2028–2032 (scale) | 2032+ (80% coverage)",
+    "impact": "TRANSFORMATIVE",
+    "ehds": true,
+    "transformation": {
+      "from": "PROM infrastructure exists in Nordic countries but women's health-specific measures (MENQOL, BPI, HeartQoL) are not systematically collected",
+      "to": "Standardised PROM package systematically collected across women's health pathways with cross-pathway comparability using EQ-5D-5L and condition-specific instruments"
+    },
+    "description": [
+      "This activity adds a women's health layer to existing Nordic PROM infrastructure. The standardised package includes EQ-5D-5L for cross-pathway comparability, MENQOL (Menopause-Specific Quality of Life), BPI (Brief Pain Inventory), HeartQoL for cardiovascular conditions, and health economics indicators (sick leave days, healthcare utilisation, work ability).",
+      "Pathway rollout is sequenced to build on existing momentum: menopause first (2026–2027, leveraging Sweden's October 2025 guidelines), then pain (2027–2028, building on endometriosis centres), then CVD (2028–2030, integrated with updated risk assessment tools from C-Po-1). The infrastructure builds on Sweden's approximately 100 National Quality Registries and SwePROM coordination, Denmark's National PRO Programme across 20+ areas and AmbuFlex digital platform, Norway's Women's Health Strategy 2024 (NOK 150M), and Finland's PERFECT project.",
+      "This activity is the critical dependency for value-based reimbursement (C-M-1) — PROM scores become the billing data. It also feeds into Innovation domain tools (I-D-1 Intelligence Layer) and Research domain analysis (R-D-2 Federated Cohort)."
+    ],
+    "evidence": "Sweden: ~100 National Quality Registries, SwePROM, EQ-5D widely used. Denmark: National PRO Programme (2017), AmbuFlex. Norway: Women's Health Strategy 2024 (NOK 150M). Finland: PERFECT project.",
+    "builds_on": [
+      {
+        "name": "Sweden Quality Registries / SwePROM",
+        "detail": "~100 registries, EQ-5D widely used"
+      },
+      {
+        "name": "Denmark National PRO Programme / AmbuFlex",
+        "detail": "20+ areas, digital platform"
+      },
+      {
+        "name": "Norway Women's Health Strategy 2024",
+        "detail": "NOK 150M investment"
+      },
+      {
+        "name": "Finland PERFECT Project",
+        "detail": "EQ-5D in HTA"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "PROM package piloted in menopause pathway",
+        "Systematic collection across 3 pathways",
+        "80% coverage across women's health conditions"
+      ],
+      "handoff": [
+        "PROM data available for C-M-1 payment pilots",
+        "Data feeds Innovation (I-D-1) and Research (R-D-2)",
+        "PROMs integrated into Living Guideline Platform (C-Po-1)"
+      ],
+      "outcome": [
+        "Baseline QoL data for women's health conditions",
+        "Measurable QoL improvements tracked across pathways",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk sets interoperability standards",
+      "national": "Quality registry bodies adopt WH PROM package",
+      "regional": "Health IT integrates PROM collection into clinical workflows"
+    },
+    "lead": "NordForsk (standards) + national quality registry bodies + regional health IT",
+    "investment": "€3–5M across phases",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-D-1",
+        "description": "Uses Data Dictionary for standardised variable definitions"
+      },
+      {
+        "direction": "Critical Downstream",
+        "code": "C-M-1",
+        "description": "PROMs ARE the billing infrastructure for value-based reimbursement"
+      },
+      {
+        "direction": "Downstream",
+        "code": "I-D-1",
+        "description": "Intelligence Layer interprets PROM data with cycle-aware analysis"
+      },
+      {
+        "direction": "Downstream",
+        "code": "R-D-2",
+        "description": "PROM data feeds federated cohort for research"
+      }
+    ]
+  },
+  {
+    "id": "c_d_2",
+    "code": "C-D-2",
+    "title": "Registry Integration & Sex-Disaggregation",
+    "subtitle": "Care Domain — Data Pillar",
+    "domain": "Care",
+    "pillar": "Data",
+    "loop": "Adopt",
+    "timeline": "2026–2030",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Women's health PROMs not integrated into quality registries; many registries aggregate data by default, obscuring sex differences in outcomes and care quality",
+      "to": "PROM-to-registry integration with defined data flows and consent models, plus sex-disaggregation mandate requiring all health registries to report outcomes by sex"
+    },
+    "description": [
+      "This activity has two components. The first is PROM-to-registry integration: ensuring women's health PROMs from C-D-1 feed into quality registries for outcome tracking and research use, with defined data flows, consent models, and interoperability standards. The second is a sex-disaggregation mandate: requiring all health registries to report outcomes by sex, since many registries currently aggregate data in ways that obscure clinically significant sex differences.",
+      "The activity explicitly includes linkage to Nordic biobanks (Swedish Biobank Register, Danish National Biobank, and others) to enable biological validation of PROM-reported outcomes. This connects Care-generated data to Research domain infrastructure, creating the bidirectional data flow that the Accelerator Loop requires: Care generates PROM data, Research analyses it, Innovation builds tools from it, and Care adopts those tools — completing the cycle."
+    ],
+    "evidence": "Nordic quality registry infrastructure. Swedish Biobank Register, Danish National Biobank for biological validation linkage.",
+    "builds_on": [
+      {
+        "name": "Nordic Quality Registry Bodies",
+        "detail": "Existing infrastructure for outcome tracking"
+      },
+      {
+        "name": "Nordic Biobanks",
+        "detail": "Swedish Biobank Register, Danish National Biobank"
+      },
+      {
+        "name": "Health Data Authorities",
+        "detail": "National governance for data flows"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Integration protocols defined; sex-disaggregation mandate drafted",
+        "3+ registries integrated with PROM data",
+        "All health registries report by sex"
+      ],
+      "handoff": [
+        "Data flows to Research domain (R-D-1, R-D-2) defined",
+        "Registries produce sex-disaggregated quality reports",
+        "Biobank linkage enables biological validation"
+      ],
+      "outcome": [
+        "Sex differences in care quality visible",
+        "Registry data reveals previously hidden disparities",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Coordinate interoperability standards",
+      "national": "Registry bodies implement integration and mandate",
+      "regional": "Health authorities use sex-disaggregated reports for improvement"
+    },
+    "lead": "National quality registry bodies + health data authorities",
+    "investment": "€2–3M",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "C-D-1",
+        "description": "PROM infrastructure provides the data to integrate"
+      },
+      {
+        "direction": "Upstream",
+        "code": "R-D-1",
+        "description": "Data Dictionary provides coding standards"
+      },
+      {
+        "direction": "Downstream",
+        "code": "R-D-2",
+        "description": "Registry data feeds federated cohort research"
+      }
+    ]
+  },
+  {
+    "id": "i_p_1",
+    "code": "I-P-1",
+    "title": "Women's Health Data Ambassadors Program",
+    "subtitle": "Innovation Domain — People Pillar",
+    "domain": "Innovation",
+    "pillar": "People",
+    "loop": "Translate",
+    "timeline": "2025–2027 (placement) | 2028+ (scale)",
+    "impact": "HIGH",
+    "ehds": true,
+    "transformation": {
+      "from": "Women's health requirements absent from EU and Nordic data infrastructure decisions; digital health revolution replicates existing gender gaps",
+      "to": "Embedded ambassadors advocating for women's health variables in EHDS, HL7 Europe FHIR, NordDEC, and MyHealth@MyHands from inside technical working groups"
+    },
+    "description": [
+      "This programme embeds women's health advocates into EU and Nordic data initiatives to ensure women's health requirements are built into infrastructure from the start — not retrofitted later. Ambassadors participate in technical working groups, standards committees, and governance bodies of major data initiatives including EHDS, HL7 Europe FHIR, NordDEC/NordForsk, and MyHealth@MyHands.",
+      "The critical window is 2026–2028: EHDS implementing acts are being finalised, with secondary use applicable from March 2029. If women's health variables are not advocated for during this window, data dictionaries will lock in gaps for a generation. Current health data systems and AI models systematically underserve women — clinical research lacks sex disaggregation, AI algorithms are trained on predominantly male datasets, and interoperability standards rarely include women's health use cases. Without ambassadors advocating from inside, the digital health revolution will replicate existing gender gaps.",
+      "The programme is coordinated by NordForsk with academic ambassadors from Nordic universities, providing low-cost, high-leverage influence through institutional presence. Ambassadors should prioritise R-D-1 (Data Dictionary) adoption within the EHDS framework, ensuring research and innovation infrastructure use common standards."
+    ],
+    "evidence": "EHDS implementing acts timeline: 2026–2028 finalisation, March 2029 secondary use. HL7 Europe FHIR interoperability standards. MyHealth@MyHands currently missing Norway and Iceland participation.",
+    "builds_on": [
+      {
+        "name": "EHDS Implementation Process",
+        "detail": "Critical window 2026–2028 — secondary use March 2029"
+      },
+      {
+        "name": "HL7 Europe FHIR",
+        "detail": "Interoperability standards for women's health conditions"
+      },
+      {
+        "name": "NordDEC / NordForsk",
+        "detail": "Cross-border data access protocols"
+      },
+      {
+        "name": "MyHealth@MyHands",
+        "detail": "EU citizen health data access (DK, FI, SE — missing NO, IS)"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Ambassadors placed in 3+ major initiatives",
+        "5+ initiatives include WH requirements",
+        "15+ countries adopt Nordic-originated standards"
+      ],
+      "handoff": [
+        "R-D-1 Data Dictionary submitted to EHDS process",
+        "EHDS secondary use includes WH variables",
+        "Global data standards reflect WH requirements"
+      ],
+      "outcome": [
+        "Women's health visible in data governance",
+        "1,500+ users of WH data standards",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk coordinates placement; universities provide ambassadors",
+      "national": "National data offices support ambassador advocacy",
+      "regional": "Clinical researchers provide use cases for standards advocacy"
+    },
+    "lead": "NordForsk (coordination) + Nordic university ambassadors",
+    "investment": "€0.5–1M/year",
+    "cross_links": [
+      {
+        "direction": "Upstream (Accelerator Chain)",
+        "code": "R-D-1",
+        "description": "Ambassadors embed Data Dictionary standards in EHDS"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-D-1",
+        "description": "Standards enable interoperable PROM infrastructure"
+      },
+      {
+        "direction": "Parallel",
+        "code": "I-D-1",
+        "description": "Intelligence Layer requires data standards ambassadors advocate for"
+      }
+    ]
+  },
+  {
+    "id": "i_m_1",
+    "code": "I-M-1",
+    "title": "Nordic Women's Health Investment Guidelines",
+    "subtitle": "Innovation Domain — Money Pillar",
+    "domain": "Innovation",
+    "pillar": "Money",
+    "loop": "Translate",
+    "timeline": "2026–2030",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Women's health innovations receive disproportionately low funding; femtech represents less than 1% of digital health venture capital; no standardised allocation exists across Nordic schemes",
+      "to": "Nordic guidelines recommending 50% of health innovation funding targets women's health gaps, with clear definitions, reporting requirements, and co-funding incentives"
+    },
+    "description": [
+      "These guidelines establish Nordic recommendations that 50% of health innovation funding explicitly targets women's health gaps — covering prevention, digital health, and gender-sensitive research. This creates systematic prioritisation across all public, private, and mixed funding sources rather than relying on ad hoc women's health initiatives.",
+      "Key components include voluntary adoption mechanisms with clear definitions of 'women's health innovation' to prevent misclassification, reporting requirements for gender-disaggregated funding data across all health innovation schemes, and co-funding incentives linking private investment to demonstrated impact. The guidelines align with existing models from the Innovative Health Initiative (IHI) and EIT Health Knowledge and Innovation Community.",
+      "The gap is stark: despite women representing 50% of the population and a significant disease burden, femtech represents less than 1% of digital health venture capital. No standardised allocation or quotas exist across Nordic funding schemes. Women's health remains discretionary rather than systematic. Denmark's 160M DKK investment (October 2025) demonstrates political will exists — the guidelines channel that will into sustained, systematic action."
+    ],
+    "evidence": "IHI: EU public-private partnership model. EIT Health: Knowledge and Innovation Community. Denmark 160M DKK (Oct 2025) national WH research investment. Femtech <1% of digital health VC.",
+    "builds_on": [
+      {
+        "name": "Innovative Health Initiative (IHI)",
+        "detail": "EU public-private co-investment model"
+      },
+      {
+        "name": "EIT Health",
+        "detail": "Knowledge and Innovation Community"
+      },
+      {
+        "name": "Denmark 160M DKK (Oct 2025)",
+        "detail": "National proof of political will"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Guidelines published with adoption toolkit",
+        "All 5 countries at 50% allocation",
+        "€500M+ annually in WH innovation funding"
+      ],
+      "handoff": [
+        "Funding agencies adopt reporting requirements",
+        "Private co-investment increases",
+        "Investment ecosystem self-sustaining"
+      ],
+      "outcome": [
+        "WH innovation funding visible and tracked",
+        "Innovation pipeline grows measurably",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM provides policy framework; Nordic Innovation promotes adoption",
+      "national": "Ministries endorse guidelines; national agencies implement",
+      "regional": "Innovation hubs apply guidelines to local funding"
+    },
+    "lead": "NCM (policy) + NordForsk (research) + Nordic Innovation (innovation) + national ministries",
+    "investment": "€0.5–1M (guideline development)",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-M-2",
+        "description": "Catalytic Fund provides pipeline of fundable projects"
+      },
+      {
+        "direction": "Downstream (Accelerator Chain)",
+        "code": "C-M-2",
+        "description": "Health Economics ROI justifies investment allocation"
+      },
+      {
+        "direction": "Parallel",
+        "code": "I-Po-1",
+        "description": "Sandbox provides de-risking; guidelines create funding signal"
+      }
+    ]
+  },
+  {
+    "id": "i_m_2",
+    "code": "I-M-2",
+    "title": "Nordic Women's Health Impact Measurement Toolkit",
+    "subtitle": "Innovation Domain — Money Pillar",
+    "domain": "Innovation",
+    "pillar": "Money",
+    "loop": "Translate",
+    "timeline": "2025–2028 (development) | 2028+ (adoption)",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "No standardised way to measure women's health innovation impact; investors and funders lack comparable evidence across pilots",
+      "to": "Standardised Micro-KPI toolkit measuring equity reach, time-to-evidence, and quality-of-life improvements — designed for EU standard adoption"
+    },
+    "description": [
+      "The Impact Measurement Toolkit develops standardised Micro-KPIs measuring women's health innovation impact across three dimensions: equity reach (who benefits, addressing underserved populations rather than just early adopters), time-to-evidence (tracking the 14→5 year translation goal), and quality-of-life improvements (patient-reported outcomes across life stages).",
+      "The toolkit enables innovations to demonstrate social ROI, justifies continued investment through rigorous evidence, creates comparable data across Nordic countries for policy learning, and establishes credibility for the 50% funding allocation (I-M-1) by proving impact. It is designed for scalability as an EU standard for gender-sensitive health innovation measurement, building on OECD/EU SROI frameworks, Grand Challenges gender-sensitive KPI exploration, and NHS equity measurement pilots."
+    ],
+    "evidence": "OECD/EU SROI frameworks. Grand Challenges gender-sensitive KPI exploration. NHS equity and quality-of-life measurement pilots.",
+    "builds_on": [
+      {
+        "name": "OECD/EU SROI Frameworks",
+        "detail": "Social return on investment methodology"
+      },
+      {
+        "name": "Grand Challenges",
+        "detail": "Gender-sensitive KPI exploration"
+      },
+      {
+        "name": "NHS Pilots",
+        "detail": "Equity and quality-of-life measurement tools"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Toolkit published with measurement protocols",
+        "Adopted across Nordic innovation ecosystem",
+        "EU standard for gender-sensitive innovation measurement"
+      ],
+      "handoff": [
+        "Innovations use toolkit to report impact",
+        "Investors use toolkit for due diligence",
+        "Toolkit data feeds policy decisions on WH funding"
+      ],
+      "outcome": [
+        "Comparable impact data across pilots",
+        "Evidence base for sustained investment (I-M-1)",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk develops; Nordic Innovation promotes",
+      "national": "Innovation agencies adopt measurement standards",
+      "regional": "Innovation hubs apply toolkit to local pilots"
+    },
+    "lead": "NordForsk (development) + Nordic Innovation (adoption) + EIT Health Scandinavia (EU scalability)",
+    "investment": "€1–2M",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "C-D-1",
+        "description": "QoL dimension uses instruments compatible with PROM infrastructure (MENQOL, BPI, HeartQoL)"
+      },
+      {
+        "direction": "Parallel",
+        "code": "I-M-1",
+        "description": "Toolkit proves impact, justifying 50% funding allocation"
+      }
+    ]
+  },
+  {
+    "id": "i_po_1",
+    "code": "I-Po-1",
+    "title": "Nordic Women's Health AI Regulatory Sandbox",
+    "subtitle": "Innovation Domain — Policy Pillar",
+    "domain": "Innovation",
+    "pillar": "Policy",
+    "loop": "Translate",
+    "timeline": "2025–2027 (establishment) | 2027+ (operation)",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "EU AI Act mandates sandboxes but none focus on women's health; existing sandboxes don't address women's health-specific validation challenges",
+      "to": "The first dedicated regulatory sandbox for women's health AI innovations, leveraging EU AI Act Article 57 mandate and each Nordic country's strengths"
+    },
+    "description": [
+      "This activity establishes the first dedicated regulatory sandbox for low-risk digital health and AI innovations targeting women's health. EU AI Act Article 57 mandates all Member States to establish sandboxes by August 2026 — this activity adds women's health focus to that mandate rather than creating a parallel structure.",
+      "The sandbox addresses women's health-specific validation challenges that generic sandboxes miss: validating AI diagnostics that account for menstrual cycle variation, testing interventions across hormonal transitions (puberty, pregnancy, perimenopause), establishing evidence standards for conditions with long diagnostic delays (endometriosis 7–10 years, PCOS, perimenopause), and creating gender-disaggregated data requirements for AI validation.",
+      "The collaborative Nordic approach leverages each country's strengths: Norway's regulatory infrastructure and sandbox experience, Sweden's women's health research excellence and Forte centres, Denmark's digital health ecosystem, Finland's data protection expertise (Findata model), and Iceland's genetic research capacity (deCODE heritage). This creates larger market access than single-country sandboxes and positions the Nordics as a global leader in gender-sensitive health regulation. Partnership with the UK MHRA AI Airlock — whose Phase 2 completes March 2026 with tested methodologies for risk classification, change management, and bias metrics — provides a template source for Nordic sandbox design."
+    ],
+    "evidence": "EU AI Act Article 57: sandbox mandate by Aug 2026. UK MHRA AI Airlock: Phase 2 completing March 2026. Nordic national sandboxes: DK, SE, NO, FI operational; IS none.",
+    "builds_on": [
+      {
+        "name": "EU AI Act Article 57",
+        "detail": "Mandate for sandboxes by Aug 2026 — legal foundation"
+      },
+      {
+        "name": "UK MHRA AI Airlock",
+        "detail": "Phase 2 completing March 2026 — template for Nordic design"
+      },
+      {
+        "name": "Nordic National Sandboxes",
+        "detail": "DK, SE, NO, FI operational — infrastructure exists"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Sandbox operational with WH focus",
+        "20+ innovations tested, 40% faster approvals",
+        "EU-wide frameworks; Nordic = fastest pathway"
+      ],
+      "handoff": [
+        "First innovations enter sandbox",
+        "Validated tools recommended by Guideline Council (C-Po-1)",
+        "Sandbox evidence justifies reimbursement (C-M-1)"
+      ],
+      "outcome": [
+        "WH AI innovations have regulatory pathway",
+        "Nordic market attractive for WH innovators",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM selects lead country (NO/SE); all 5 as network partners",
+      "national": "Regulatory authorities participate in sandbox network",
+      "regional": "Clinical sites provide real-world testing environments"
+    },
+    "lead": "Lead country (NCM-selected) + all 5 Nordic countries + UK MHRA partnership",
+    "investment": "€3–5M (establishment + operation)",
+    "cross_links": [
+      {
+        "direction": "Upstream (Accelerator Chain)",
+        "code": "R-Po-1",
+        "description": "Sex-stratified mandate ensures evidence quality for sandbox validation"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-Po-1",
+        "description": "Validated tools become guideline recommendations"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-M-1",
+        "description": "Sandbox evidence justifies reimbursement"
+      }
+    ]
+  },
+  {
+    "id": "i_d_1",
+    "code": "I-D-1",
+    "title": "Nordic Women's Health Intelligence Layer",
+    "subtitle": "Innovation Domain — Data Pillar",
+    "domain": "Innovation",
+    "pillar": "Data",
+    "loop": "Translate",
+    "timeline": "2026–2030 (development) | 2030+ (deployment)",
+    "impact": "TRANSFORMATIVE",
+    "ehds": true,
+    "transformation": {
+      "from": "AI platforms collect health data in gender-neutral ways; no system interprets citizen-generated data through a women's health lens",
+      "to": "An AI reasoning infrastructure with menstrual cycle-aware analysis, hormonal transition modelling, bias detection, and digital twin foundations — positioning the Nordics as global reference market for women's health AI"
+    },
+    "description": [
+      "The Intelligence Layer builds AI reasoning infrastructure that interprets health data through a women's health lens. Rather than rebuilding foundation models, it sits on top of existing platforms and leverages European AI initiatives (EuroLLM, LLMs4Europe, OpenEuroLLM) to add missing capabilities — specifically menstrual cycle-aware analysis, hormonal transition modelling, bias detection, and digital twin foundations.",
+      "Core capabilities include correlating wearable data (HRV, sleep, activity) with menstrual cycle phases, understanding data patterns during puberty, pregnancy, and perimenopause, identifying when underlying AI models are trained predominantly on male data, and building individualised health modelling accounting for female-specific variables.",
+      "The gap is fundamental: all current platforms collect data in gender-neutral ways. Wearables track heart rate variability but don't correlate with cycle phases; sleep tracking ignores perimenopausal patterns; activity data doesn't account for menstruation impact. None systematically interpret citizen-generated data through a women's health lens. By creating validated, cycle-aware interpretation standards, this activity positions the Nordic region as a global reference market for women's health AI — attracting MedTech validation partnerships and investment.",
+      "The Intelligence Layer is the translation mechanism between Research evidence and Care tools: it uses R-D-1 Data Dictionary for standardised variables, is trained on R-D-2 Federated Cohort data, and enables more sophisticated interpretation of C-D-1 PROM data."
+    ],
+    "evidence": "RADAR-base: open-source remote data collection with privacy-aware analytics. MyHealth@MyHands: EU citizen health data access. FEMaLe Project (Horizon 2020): AI for endometriosis. European AI initiatives: EuroLLM, LLMs4Europe, OpenEuroLLM.",
+    "builds_on": [
+      {
+        "name": "RADAR-base",
+        "detail": "Open-source wearable data collection platform"
+      },
+      {
+        "name": "MyHealth@MyHands",
+        "detail": "EU citizen health data access (DK, FI, SE)"
+      },
+      {
+        "name": "FEMaLe Project (Horizon 2020)",
+        "detail": "AI for endometriosis — proof of concept"
+      },
+      {
+        "name": "European AI Initiatives",
+        "detail": "EuroLLM, OpenEuroLLM — foundation models to build upon"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Pilot with cycle-aware analysis capability",
+        "10+ innovations enabled by Intelligence Layer",
+        "50% faster diagnostics through AI-assisted interpretation"
+      ],
+      "handoff": [
+        "Research data (R-D-2) feeds training",
+        "Care tools (C-Po-1) use Intelligence Layer",
+        "Innovation ecosystem built on WH AI standards"
+      ],
+      "outcome": [
+        "Cycle-aware analysis demonstrated",
+        "Clinical utility validated in pilot pathways",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NordForsk leads development consortium",
+      "national": "University hospitals and technical universities contribute",
+      "regional": "Clinical sites provide validation environments"
+    },
+    "lead": "NordForsk + university hospitals + technical universities + EIT Health Scandinavia",
+    "investment": "€10–15M",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "R-D-1",
+        "description": "Uses Data Dictionary for standardised variables"
+      },
+      {
+        "direction": "Upstream",
+        "code": "R-D-2",
+        "description": "Trained on Federated Cohort data"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-D-1",
+        "description": "Enables sophisticated PROM data interpretation"
+      },
+      {
+        "direction": "Downstream",
+        "code": "C-Po-1",
+        "description": "AI tools feed into clinical guidelines"
+      }
+    ]
+  },
+  {
+    "id": "a_1",
+    "code": "A-1",
+    "title": "Nordic Women's Health Literacy Standard",
+    "subtitle": "Awareness Domain — Cross-cutting Pillar",
+    "domain": "Awareness",
+    "pillar": "Cross-cutting",
+    "loop": "Enable",
+    "timeline": "2026–2030",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "No common baseline for what citizens and professionals should know about women's health at each life stage",
+      "to": "A defined Nordic standard establishing societal expectations for women's health knowledge across life stages and professional sectors"
+    },
+    "description": [
+      "This activity defines what Nordic citizens should know about women's health at each life stage, and what professionals should know in each sector. It creates the curriculum foundation for all education activities while establishing societal expectations that drive demand for the competence-building activities across all three domains.",
+      "The standard builds on WHO health literacy frameworks and Nordic education cooperation structures. Unlike traditional literacy measures, it captures citizens' ability to access health information through digital, cultural, and gender lenses, understand information in the context of their life stage, and act on information through informed decisions. The standard anchors health literacy as a shared governance priority rather than a communications effort.",
+      "This is the reference point for the Nordic Health Literacy Index — co-developed with NCM for Health and Social Affairs, NOMESCO/NOSOSCO (permanent NCM statistical committees), and the Nordic Welfare Centre (whose 2022 report already identifies health literacy as a determinant of health). Without such a standard, cultural change stays aspirational. With it, health literacy becomes measurable, fundable, and foundational."
+    ],
+    "evidence": "WHO health literacy frameworks. Nordic Welfare Centre 2022 report on health literacy. NOMESCO/NOSOSCO Nordic statistical infrastructure.",
+    "builds_on": [
+      {
+        "name": "WHO Health Literacy Frameworks",
+        "detail": "International standard methodology"
+      },
+      {
+        "name": "Nordic Education Cooperation",
+        "detail": "Existing cross-border education structures"
+      },
+      {
+        "name": "Nordic Welfare Centre 2022 Report",
+        "detail": "Health literacy identified as health determinant"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Standard drafted with life-stage competency maps",
+        "Standard adopted by education and health ministries",
+        "Standard embedded in Nordic governance"
+      ],
+      "handoff": [
+        "Education Pipeline (A-2) uses standard as curriculum basis",
+        "Professional education (C-P-1) aligns with standard",
+        "Health Literacy Index measures against standard"
+      ],
+      "outcome": [
+        "Common language for WH literacy",
+        "Societal expectation for WH knowledge established",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM + Ministries of Education/Health lead development",
+      "national": "Education and health ministries adopt standard",
+      "regional": "Municipalities implement through schools and health services"
+    },
+    "lead": "NCM + Ministries of Education/Health",
+    "investment": "€1–2M",
+    "cross_links": [
+      {
+        "direction": "Downstream",
+        "code": "A-2",
+        "description": "Standard defines curriculum for Life-Course Education Pipeline"
+      },
+      {
+        "direction": "Enables",
+        "code": "C-P-1",
+        "description": "Creates societal expectation for professional WH competence"
+      },
+      {
+        "direction": "Enables",
+        "code": "All POLICY activities",
+        "description": "Creates public legitimacy for policy mandates"
+      }
+    ]
+  },
+  {
+    "id": "a_2",
+    "code": "A-2",
+    "title": "Life-Course Education Pipeline",
+    "subtitle": "Awareness Domain — Cross-cutting Pillar",
+    "domain": "Awareness",
+    "pillar": "Cross-cutting",
+    "loop": "Enable",
+    "timeline": "2026–2030 (development) | 2030+ (mandatory integration)",
+    "impact": "TRANSFORMATIVE",
+    "ehds": false,
+    "transformation": {
+      "from": "Women's health education is fragmented, voluntary, and largely absent from school curricula, university programmes, and workplace training",
+      "to": "Mandated education from schools through universities through workplaces through clinical re-credentialing, creating a generational shift where by age ten every child can name basic hormonal stages"
+    },
+    "description": [
+      "This activity creates a mandated education pipeline spanning the entire life course: schools, universities, workplaces, and clinical re-credentialing. By age ten, every child can name basic hormonal stages. Men attend workshops as active participants in a shared social contract, not just as allies. Nordic schools treat health literacy as core curriculum, taught alongside languages and science.",
+      "The fastest entry point is professional medical associations and CME micro-modules (connecting to Care domain C-P-1), which create practitioner demand that pulls university curricula forward. Education ministry coordination follows through NCM, respecting sovereign curriculum authority. The pipeline builds on the UK RSHE statutory guidance (2025, mandatory from September 2026) which includes menstrual and gynaecological health at secondary level, and on Nordic education cooperation structures.",
+      "This is the most transformative Awareness activity because it creates a generational shift — but the longest to fully implement. The phased approach ensures early visible progress through professional education while building toward mandatory school integration."
+    ],
+    "evidence": "UK RSHE statutory guidance: mandatory from September 2026, including menstrual and gynaecological health. Nordic education cooperation structures.",
+    "builds_on": [
+      {
+        "name": "UK RSHE Statutory Guidance",
+        "detail": "Mandatory from Sept 2026 — menstrual/gynaecological health at secondary level"
+      },
+      {
+        "name": "Nordic Education Cooperation",
+        "detail": "Cross-border curriculum coordination structures"
+      },
+      {
+        "name": "NCM Education Framework",
+        "detail": "Respects sovereign curriculum authority"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Pipeline curriculum designed with A-1 standard",
+        "Professional modules deployed; school pilots in 3+ countries",
+        "Mandatory integration across all education levels"
+      ],
+      "handoff": [
+        "CME modules create demand for university curriculum change",
+        "University graduates enter workforce with WH literacy",
+        "Generational shift in population health literacy"
+      ],
+      "outcome": [
+        "Early professional education uptake",
+        "Measurable increase in public WH knowledge",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM coordinates; education ministries endorse framework",
+      "national": "Professional bodies adopt CME modules; universities pilot curricula",
+      "regional": "Schools and workplaces implement local programmes"
+    },
+    "lead": "NCM + education ministries + professional bodies",
+    "investment": "€5–10M across development and integration",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "A-1",
+        "description": "Literacy Standard defines curriculum content"
+      },
+      {
+        "direction": "Parallel",
+        "code": "C-P-1",
+        "description": "Professional education pipeline — fastest entry point via CME"
+      },
+      {
+        "direction": "Enables",
+        "code": "All PEOPLE activities",
+        "description": "Creates demand for WH expertise across domains"
+      }
+    ]
+  },
+  {
+    "id": "a_3",
+    "code": "A-3",
+    "title": "Corporate Health Literacy Reporting",
+    "subtitle": "Awareness Domain — Cross-cutting Pillar",
+    "domain": "Awareness",
+    "pillar": "Cross-cutting",
+    "loop": "Enable",
+    "timeline": "2026–2030",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Women's health absent from corporate ESG reporting; menopause-related absenteeism costs ~£11B annually (UK estimate) but isn't tracked or addressed as a workplace issue",
+      "to": "Large employers voluntarily publish women's health literacy KPIs as competitive ESG practice, with cycle-aware policies, menopause support, and inclusive parental leave"
+    },
+    "description": [
+      "This activity encourages large employers to voluntarily publish women's health literacy KPIs as a competitive ESG practice. Companies develop cycle-aware policies, menopause support programmes, and inclusive parental leave. The economic case is compelling: UK research estimates menopause-related absenteeism costs £11 billion annually, making women's health financially material for talent retention and productivity.",
+      "Following the EU CSRD Omnibus simplification (December 2025), topical social disclosures depend on company-level materiality assessments. Nordic employers who proactively demonstrate impact on women's health gain a first-mover advantage by establishing metrics before regulatory requirements crystallise. Nordic employers' associations are the primary pathway, leveraging the existing gender-equality reporting culture rather than waiting for regulatory mandates.",
+      "This creates market-driven incentive for workplace health support that complements the policy-driven approaches in other activities. When employers track and publish women's health data, they create visibility and accountability without requiring government mandate — normalising investment through competitive dynamics."
+    ],
+    "evidence": "UK menopause absenteeism cost: ~£11B annually. EU CSRD Omnibus (Dec 2025): topical social disclosures via materiality assessment. Nordic gender-equality reporting culture.",
+    "builds_on": [
+      {
+        "name": "Nordic Gender Equality Reporting",
+        "detail": "Existing corporate reporting culture"
+      },
+      {
+        "name": "EU CSRD / ESRS S1",
+        "detail": "Social metrics framework — materiality-based"
+      },
+      {
+        "name": "Care Domain Economic Evidence (C-M-2)",
+        "detail": "Quantified burden data for employer business case"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Reporting framework published",
+        "50+ large employers reporting voluntarily",
+        "WH reporting standard across Nordic employers"
+      ],
+      "handoff": [
+        "Employers associations promote framework",
+        "ESG ratings incorporate WH metrics",
+        "Market incentive self-sustaining"
+      ],
+      "outcome": [
+        "Employer awareness of WH economic impact",
+        "Measurable workplace WH support programmes",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "NCM + employers' associations develop framework",
+      "national": "Employers' associations promote adoption",
+      "regional": "Individual employers pilot and report"
+    },
+    "lead": "NCM + Nordic employers' associations",
+    "investment": "€0.5–1M (framework development)",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "C-M-2",
+        "description": "Health economics evidence provides employer business case"
+      },
+      {
+        "direction": "Enables",
+        "code": "MONEY pillar",
+        "description": "Creates market incentive for employer WH investment"
+      }
+    ]
+  },
+  {
+    "id": "a_4",
+    "code": "A-4",
+    "title": "Accessible Knowledge Infrastructure",
+    "subtitle": "Awareness Domain — Cross-cutting Pillar",
+    "domain": "Awareness",
+    "pillar": "Cross-cutting",
+    "loop": "Enable",
+    "timeline": "2026–2028",
+    "impact": "HIGH",
+    "ehds": false,
+    "transformation": {
+      "from": "Disconnected, paywalled information with a culture of ignorance; women enter health systems through random doors and find inconsistent quality",
+      "to": "'No wrong door' — plain-language, free, multilingual resources through community channels where every entry point leads to trustworthy information"
+    },
+    "description": [
+      "This activity creates a 'no wrong door' approach: plain-language, free, multilingual resources delivered through community channels including public libraries, municipal health services, NGOs, and patient organisations. Public libraries host health screenings with nurses present. Municipal health services connect to national resources. Wherever a woman enters the system, she finds trustworthy information.",
+      "Rather than asking resource-constrained NGOs and patient organisations to adopt another framework, the Charter provides them with validated, high-quality evidence and data from the Nordic Women's Health Intelligence Layer (I-D-1) that strengthens their own grant applications, advocacy, and public education. The Ambassador model gives organisations credibility and connection without threatening autonomy — a utility-first approach that makes the Charter useful rather than burdensome.",
+      "The activity ensures equity of access across geography, language, and digital capability — addressing the reality that health literacy gaps are widest among those with least access to digital resources, immigrant communities, and rural populations. Community-based delivery through existing trusted institutions (libraries, municipal services) reaches populations that clinical settings miss."
+    ],
+    "evidence": "Nordic public library networks. Municipal health services infrastructure. Nordic Welfare Centre health literacy work.",
+    "builds_on": [
+      {
+        "name": "Nordic Public Library Networks",
+        "detail": "Trusted community infrastructure with universal reach"
+      },
+      {
+        "name": "Municipal Health Services",
+        "detail": "Existing local health service delivery"
+      },
+      {
+        "name": "NGO and Patient Organisation Networks",
+        "detail": "Grassroots reach and lived experience"
+      }
+    ],
+    "indicators": {
+      "output": [
+        "Resources available in 5+ languages through libraries",
+        "All municipalities connected to national resources",
+        "No wrong door' principle operational across Nordics"
+      ],
+      "handoff": [
+        "NGOs use Charter evidence in their advocacy",
+        "Libraries report health screening uptake",
+        "Community trust enables data sharing (C-D-1)"
+      ],
+      "outcome": [
+        "Equitable access to WH information",
+        "Reduced geographic/linguistic health literacy gaps",
+        null
+      ]
+    },
+    "entry_points": {
+      "nordic": "Coordinate resource development and quality standards",
+      "national": "Connect municipal services to national resources",
+      "regional": "Libraries and community organisations deliver locally"
+    },
+    "lead": "Municipalities + Libraries + NGOs + Patient organisations",
+    "investment": "€1–3M",
+    "cross_links": [
+      {
+        "direction": "Upstream",
+        "code": "I-D-1",
+        "description": "Intelligence Layer provides validated evidence for community resources"
+      },
+      {
+        "direction": "Enables",
+        "code": "C-D-1",
+        "description": "Community trust enables women to share health data"
+      },
+      {
+        "direction": "Enables",
+        "code": "All domains",
+        "description": "Cultural legitimacy that determines whether any infrastructure succeeds"
+      }
+    ]
+  }
+]

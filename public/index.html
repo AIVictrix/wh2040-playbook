@@ -2215,46 +2215,131 @@ function ActivityCard({ activity, onClick, highlighted, dimmed }) {
 
 // Known links for programmes and institutions referenced across activities
 const KNOWN_LINKS = {
+  // ── AI & Data Initiatives ──
   "RADAR-base": "https://radar-base.org/",
   "MyHealth@MyHands": "https://myhealthmyhands.eu/",
   "FEMaLe Project (Horizon 2020)": "https://findingendometriosis.eu/",
+  "FEMaLe Project": "https://findingendometriosis.eu/",
   "European AI Initiatives": "https://openeurollm.eu/",
   "EuroLLM": "https://eurollm.io/",
   "LLMs4Europe": "https://www.alt-edic.eu/projects/llms4eu/",
   "LLMs4EU": "https://www.alt-edic.eu/projects/llms4eu/",
   "OpenEuroLLM": "https://openeurollm.eu/",
   "EHDS": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en",
-  "NIH BIRCWH": "https://orwh.od.nih.gov/building-interdisciplinary-research-careers-in-womens-health-bircwh",
-  "NIH BIRCWH Program": "https://orwh.od.nih.gov/building-interdisciplinary-research-careers-in-womens-health-bircwh",
-  "Forte SEK 255M Research Centres": "https://forte.se/",
-  "CIHR Institute of Gender and Health": "https://cihr-irsc.gc.ca/e/8673.html",
-  "Marie Skłodowska-Curie Fellowships": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
-  "EHDEN network (OMOP CDM)": "https://www.ehden.eu/",
+  "EHDS Implementation Process": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en",
   "EU AI Act": "https://artificialintelligenceact.eu/",
   "EU AI Act Article 57": "https://artificialintelligenceact.eu/article/57/",
+  "HL7 Europe FHIR": "https://hl7.eu/fhir/",
+  "NordDEC": "https://norddec.org/",
+  "OHDSI / OMOP CDM": "https://www.ohdsi.org/",
+  "OHDSI": "https://www.ohdsi.org/",
+  "OMOP CDM": "https://www.ohdsi.org/",
+  "Findata": "https://findata.fi/en/",
+  // ── Research Funders & Programmes ──
+  "NIH BIRCWH": "https://orwh.od.nih.gov/building-interdisciplinary-research-careers-in-womens-health-bircwh",
+  "NIH BIRCWH Program": "https://orwh.od.nih.gov/building-interdisciplinary-research-careers-in-womens-health-bircwh",
+  "NIH SCOR on Sex Differences": "https://orwh.od.nih.gov/",
+  "Forte SEK 255M Research Centres": "https://forte.se/",
+  "Forte SEK 255M Research Centres (Sweden, 2025)": "https://forte.se/",
+  "Forte (Sweden)": "https://forte.se/",
+  "Forte": "https://forte.se/",
+  "CIHR Institute of Gender and Health": "https://cihr-irsc.gc.ca/e/8673.html",
+  "CIHR SGBA+ Policy (Canada)": "https://cihr-irsc.gc.ca/e/8673.html",
+  "Marie Skłodowska-Curie Fellowships": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
   "Horizon Europe": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+  "Horizon Europe Gender Dimension": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+  "Vetenskapsrådet (Sweden)": "https://www.vr.se/english.html",
+  "Vetenskapsrådet": "https://www.vr.se/english.html",
+  "IHI (Innovative Health Initiative)": "https://www.ihi.europa.eu/",
+  "Innovative Health Initiative (IHI)": "https://www.ihi.europa.eu/",
+  "Grand Challenges": "https://gcgh.grandchallenges.org/",
+  // ── Nordic Organisations ──
+  "NordForsk": "https://www.nordforsk.org/",
+  "NordForsk Virtual Pot Model": "https://www.nordforsk.org/",
+  "Nordic Innovation": "https://www.nordicinnovation.org/",
+  "NCM (Nordic Council of Ministers)": "https://www.norden.org/en/nordic-council-ministers",
+  "Nordic Council of Ministers": "https://www.norden.org/en/nordic-council-ministers",
+  "EIT Health": "https://eithealth.eu/",
+  "EIT Health Scandinavia": "https://eithealth.eu/in-your-region/scandinavia/",
+  "Nordic Welfare Centre 2022 Report": "https://nordicwelfare.org/",
+  "Nordic Welfare Centre": "https://nordicwelfare.org/",
+  "NFOG": "https://nfog.org/",
+  "NFOG / NFGP": "https://nfog.org/",
+  "NOMESCO / NOSOSCO": "https://nhwstat.org/",
+  "NOMESCO": "https://nhwstat.org/",
+  "NOSOSCO": "https://nhwstat.org/",
+  // ── Cohorts & Biobanks ──
+  "MoBa (Norwegian Mother, Father and Child Cohort)": "https://www.fhi.no/en/ch/studies/moba/",
+  "MoBa": "https://www.fhi.no/en/ch/studies/moba/",
+  "Finnish Biobank Network": "https://finbb.fi/en/",
+  "Swedish Biobank Register": "https://biobanksverige.se/en/",
+  "Danish National Biobanks and Registries": "https://www.danishnationalbiobank.com/",
+  "deCODE Genetics": "https://www.decode.com/",
+  "deCODE": "https://www.decode.com/",
+  // ── Data Standards & Registries ──
+  "EHDEN network (OMOP CDM)": "https://www.ehden.eu/",
+  "EHDEN": "https://www.ehden.eu/",
   "ICHOM standard sets": "https://www.ichom.org/",
   "ICHOM standard outcome sets": "https://www.ichom.org/",
+  "ICHOM": "https://www.ichom.org/",
+  "Denmark National PRO Programme / AmbuFlex": "https://www.fagperson.sundhed.rm.dk/til-ansatte-og-samarbejdspartnere/ambuflex/om-ambuflex/in-english/",
+  "AmbuFlex": "https://www.fagperson.sundhed.rm.dk/til-ansatte-og-samarbejdspartnere/ambuflex/om-ambuflex/in-english/",
+  // ── Clinical Guidelines & HTA ──
   "FINRISK / NORRISK2 / SCORE2": "https://www.escardio.org/Education/Practice-Tools/CVD-prevention-toolbox/SCORE-Risk-Charts",
   "Sweden National Menopause Guidelines (Oct 2025)": "https://www.socialstyrelsen.se/",
+  "Socialstyrelsen": "https://www.socialstyrelsen.se/",
   "ESHRE Endometriosis Guidelines": "https://www.eshre.eu/Guidelines-and-Legal/Guidelines/Endometriosis-Guideline",
   "UK Women's Health Hubs": "https://www.england.nhs.uk/long-read/womens-health-hubs/",
-  "WHO health literacy frameworks": "https://www.who.int/teams/health-promotion/enhanced-wellbeing/ninth-global-conference/health-literacy",
-  "Nordic Welfare Centre 2022 Report": "https://nordicwelfare.org/",
+  "UK NICE Methodology": "https://www.nice.org.uk/",
+  "UK NICE": "https://www.nice.org.uk/",
+  // ── Regulatory & Policy ──
+  "UK MHRA AI Airlock": "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd",
+  "EU Clinical Trials Regulation": "https://health.ec.europa.eu/medicinal-products/clinical-trials/clinical-trials-regulation-eu-no-5362014_en",
   "EU CSRD requirements": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
-  "NordForsk": "https://www.nordforsk.org/",
-  "Nordic Innovation": "https://www.nordicinnovation.org/",
-  "EIT Health": "https://eithealth.eu/",
+  "EU CSRD / ESRS S1": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+  "UK RSHE Statutory Guidance": "https://www.gov.uk/government/publications/relationships-education-relationships-and-sex-education-rse-and-health-education",
+  // ── Research Centres ──
+  "Karolinska Centre for Gender Medicine": "https://ki.se/en/research/research-areas-centres-and-networks/research-centres/centre-for-gender-medicine",
+  "Charité Gender Medicine Unit": "https://gender.charite.de/en/",
+  // ── Health Literacy & Awareness ──
+  "WHO health literacy frameworks": "https://www.who.int/teams/health-promotion/enhanced-wellbeing/ninth-global-conference/health-literacy",
+  "WHO Health Literacy Frameworks": "https://www.who.int/teams/health-promotion/enhanced-wellbeing/ninth-global-conference/health-literacy",
 };
 
 // Key insights per activity (curated one-liner for the callout)
 const KEY_INSIGHTS = {
-  "I-D-1": "By creating validated, <strong>cycle-aware interpretation standards</strong>, this activity positions the Nordic region as a <strong>global reference market</strong> for women's health AI — attracting MedTech validation partnerships and investment.",
+  // ── Research Domain ──
   "R-P-1": "Modelled on the NIH BIRCWH programme: <strong>750+ scholars</strong> trained, <strong>38% grant success rate</strong> (vs 29% baseline). The unique Nordic value lies in combining this fellowship model with <strong>Nordic population registries and biobanks</strong>.",
-  "R-D-1": "Without a shared data dictionary, <strong>EHDS implementation cannot deliver</strong> for women's health. This activity defines <strong>200+ priority variables</strong> starting with menopause, cardiovascular, and mental health.",
-  "C-Po-1": "Phase 1 targets the <strong>14-year evidence-to-practice gap</strong> in cardiovascular disease — integrating female-specific risk factors into a digital clinical decision support tool, not just a PDF.",
-  "I-P-1": "The bridge between data standards (R-D-1) and clinical data capture (C-D-1). Without ambassadors, standards stay on paper. <strong>EHDS critical window: 2025–2027.</strong>",
-  "A-1": "Without a standard, cultural change stays aspirational. With it, health literacy becomes <strong>measurable, fundable, and foundational</strong>.",
+  "R-P-2": "Concentrated research investment produces <strong>3–5x more high-impact publications</strong> than equivalent distributed funding. Sweden's <strong>SEK 255M Forte investment</strong> (2025) provides the foundation — this activity scales it to a <strong>Nordic network of 8–10 centres</strong>.",
+  "R-M-1": "Women's health draws from a <strong>narrow pool of already-committed researchers</strong>. Targeted attraction calls increase field diversity by <strong>25–40%</strong> within two funding cycles — pulling cardiologists, neurologists, and AI scientists into women's health for the first time.",
+  "R-M-2": "Leverages the distinctive Nordic asset — <strong>linked population registries across 27 million people</strong> — through a virtual pot model. Denmark's <strong>160M DKK investment</strong> (Oct 2025) proves political will exists; this fund channels it into <strong>cross-border research</strong> no single country could achieve alone.",
+  "R-M-3": "Horizon Europe's gender dimension is currently a <strong>tiebreaker, not a substantive scoring criterion</strong>. Norway's <strong>2027 NCM presidency</strong> opens a coordination window to advocate for a dedicated <strong>Women's Health Mission in FP10</strong> — modelled on the Cancer Mission.",
+  "R-Po-1": "The single policy change that <strong>every downstream activity depends on</strong>. Canada's CIHR achieved <strong>69% compliance</strong> after making sex-stratified analysis mandatory. Without this mandate, clinical guidelines, AI tools, and reimbursement models all <strong>perpetuate existing evidence gaps</strong>.",
+  "R-Po-2": "Women's health researchers publish <strong>15–20% fewer papers</strong> in top-tier journals due to field size, not quality. Without correcting promotion criteria, researchers attracted through R-M-1 and trained through R-P-1 face <strong>career penalties</strong> that drive them back to better-rewarded specialities.",
+  "R-Po-3": "A coordinated Nordic position carries <strong>more weight than five individual country submissions</strong>. This is the policy complement to R-M-3's funding track — both targeting <strong>FP10 design before structures are locked in</strong>.",
+  "R-D-1": "Without a shared data dictionary, <strong>EHDS implementation cannot deliver</strong> for women's health. This activity defines <strong>200+ priority variables</strong> starting with menopause, cardiovascular, and mental health — with a <strong>critical window before March 2029</strong> when gaps get locked in.",
+  "R-D-2": "Rather than building a new cohort from scratch, this federates <strong>existing assets (MoBa 100K+, NSHDS 140K+)</strong> and enriches them with hormonal and reproductive data. The result: <strong>complete health trajectory tracking from adolescence through menopause</strong> — a capability not possible anywhere else.",
+  "R-D-3": "Current AI tools are <strong>trained predominantly on male data</strong>, perpetuating bias in every analysis. This open-source toolkit adds <strong>menstrual cycle phase adjustment, pregnancy-safe models, and sex-difference bias detection</strong> — the computational foundation the research ambition requires.",
+  // ── Care Domain ──
+  "C-P-1": "<strong>No Nordic country</strong> currently mandates women's health training beyond reproductive medicine. Mobile-first <strong>15–30 minute micro-modules</strong> with CME credits target the gap — England implemented a <strong>mandatory curriculum in 2024/25</strong>, proving the model works.",
+  "C-P-2": "Three coordinated campaigns target the <strong>7–10 year diagnostic delay</strong> for endometriosis, normalise help-seeking for menopause, and raise awareness of <strong>female-specific CVD symptoms</strong> that standard public health messaging misses.",
+  "C-M-1": "The minimum viable approach: <strong>add-on bonus payments</strong> for achieving QoL improvement thresholds — working with existing billing systems. Critical dependency: <strong>C-D-1 PROMs are the billing infrastructure</strong>. Without QoL scores in the IT system, a region cannot pay for QoL improvements.",
+  "C-M-2": "Health budgets are national and regional, but <strong>shared methodology enables cross-country comparison</strong>. Three components — burden report, cost-effectiveness framework, and annual State of Nordic Women's Health — produce the <strong>credible economic data</strong> that parliamentary briefings and EU advocacy require.",
+  "C-Po-1": "Phase 1 integrates <strong>female-specific CVD risk factors</strong> (pregnancy complications, PCOS, premature menopause) into Nordic risk tools — enhancing FINRISK, NORRISK2, and SCORE2. The Guideline Council holds a <strong>permanent seat on the Catalytic Fund Steering Committee</strong>, closing the loop between clinical need and research investment.",
+  "C-Po-2": "Modelled on the UK Women's Health Hubs (<strong>42 Integrated Care Systems</strong>). Defines <strong>maximum diagnostic waiting times, mandatory PROM collection points, and referral criteria</strong> — ensuring evidence-based care reaches women consistently regardless of where they live.",
+  "C-D-1": "Builds on Sweden's <strong>~100 National Quality Registries</strong> and Denmark's <strong>AmbuFlex digital platform</strong>. The PROM package becomes the <strong>billing infrastructure for value-based reimbursement</strong> (C-M-1) — making quality of life financially visible for the first time.",
+  "C-D-2": "Many registries <strong>aggregate data by default, obscuring sex differences</strong> in outcomes and care quality. A sex-disaggregation mandate plus biobank linkage creates the <strong>bidirectional data flow</strong> the Accelerator Loop requires: Care generates, Research analyses, Innovation builds, Care adopts.",
+  // ── Innovation Domain ──
+  "I-P-1": "The bridge between data standards (R-D-1) and clinical data capture (C-D-1). <strong>EHDS implementing acts finalise 2026–2028</strong>, secondary use from <strong>March 2029</strong>; if women's health variables are not advocated for during this window, data dictionaries will <strong>lock in gaps for a generation</strong>.",
+  "I-M-1": "Femtech represents <strong>less than 1% of digital health venture capital</strong> despite women being 50% of the population. These guidelines recommend <strong>50% of health innovation funding</strong> targets women's health gaps — channelling Denmark's <strong>160M DKK political will</strong> into sustained, systematic action.",
+  "I-M-2": "Standardised Micro-KPIs across <strong>three dimensions — equity reach, time-to-evidence, and quality of life</strong> — enable innovations to demonstrate social ROI. Designed for scalability as an <strong>EU standard for gender-sensitive health innovation measurement</strong>.",
+  "I-Po-1": "The <strong>EU AI Act (Article 57)</strong> mandates sandboxes by August 2026 — this adds women's health focus rather than creating a parallel structure. Partnership with the <strong>UK MHRA AI Airlock</strong> provides tested methodologies. Goal: <strong>40% faster approvals</strong> for women's health AI innovations.",
+  "I-D-1": "By creating validated, <strong>cycle-aware interpretation standards</strong>, this activity positions the Nordic region as a <strong>global reference market</strong> for women's health AI — attracting MedTech validation partnerships and investment.",
+  // ── Awareness Foundation ──
+  "A-1": "Without a standard, cultural change stays aspirational. With it, health literacy becomes <strong>measurable, fundable, and foundational</strong> — co-developed with NOMESCO/NOSOSCO to anchor it in <strong>Nordic statistical infrastructure</strong>.",
+  "A-2": "The most transformative Awareness activity: by age ten, <strong>every child can name basic hormonal stages</strong>. Men attend workshops as active participants. Builds on <strong>UK RSHE statutory guidance</strong> (mandatory from September 2026) — no Nordic country currently matches this.",
+  "A-3": "UK research estimates menopause-related absenteeism costs <strong>~£11 billion annually</strong>. Following the <strong>EU CSRD Omnibus simplification</strong> (Dec 2025), Nordic employers who proactively publish women's health KPIs gain a <strong>first-mover ESG advantage</strong> before regulatory requirements crystallise.",
+  "A-4": "A <strong>'no wrong door' approach</strong>: plain-language, free, multilingual resources through <strong>public libraries, municipal health services, and NGOs</strong>. Addresses the reality that health literacy gaps are widest among those with <strong>least access to digital resources</strong>.",
 };
 
 // Enrich plain text with bold numbers/percentages, key terms, and known links
@@ -2277,6 +2362,16 @@ function enrichText(text) {
     .replace(/\bOpenEuroLLM\b/g, '<a href="https://openeurollm.eu/" target="_blank" rel="noopener" class="text-research hover:underline">OpenEuroLLM</a>')
     .replace(/\bRADAR-base\b/g, '<a href="https://radar-base.org/" target="_blank" rel="noopener" class="text-research hover:underline">RADAR-base</a>')
     .replace(/\bFEMaLe Project\b/g, '<a href="https://findingendometriosis.eu/" target="_blank" rel="noopener" class="text-research hover:underline">FEMaLe Project</a>')
+    .replace(/\bMyHealth@MyHands\b/g, '<a href="https://myhealthmyhands.eu/" target="_blank" rel="noopener" class="text-research hover:underline">MyHealth@MyHands</a>')
+    .replace(/\bNIH BIRCWH\b/g, '<a href="https://orwh.od.nih.gov/building-interdisciplinary-research-careers-in-womens-health-bircwh" target="_blank" rel="noopener" class="text-research hover:underline">NIH BIRCWH</a>')
+    .replace(/\bNordForsk\b/g, '<a href="https://www.nordforsk.org/" target="_blank" rel="noopener" class="text-research hover:underline">NordForsk</a>')
+    .replace(/\bEIT Health\b/g, '<a href="https://eithealth.eu/" target="_blank" rel="noopener" class="text-research hover:underline">EIT Health</a>')
+    .replace(/\bFindata\b/g, '<a href="https://findata.fi/en/" target="_blank" rel="noopener" class="text-research hover:underline">Findata</a>')
+    .replace(/\bOHDSI\b/g, '<a href="https://www.ohdsi.org/" target="_blank" rel="noopener" class="text-research hover:underline">OHDSI</a>')
+    .replace(/\bHL7 Europe\b/g, '<a href="https://hl7.eu/fhir/" target="_blank" rel="noopener" class="text-research hover:underline">HL7 Europe</a>')
+    .replace(/\bNordDEC\b/g, '<a href="https://norddec.org/" target="_blank" rel="noopener" class="text-research hover:underline">NordDEC</a>')
+    .replace(/\bICHOM\b/g, '<a href="https://www.ichom.org/" target="_blank" rel="noopener" class="text-research hover:underline">ICHOM</a>')
+    .replace(/\bAmbuFlex\b/g, '<a href="https://www.fagperson.sundhed.rm.dk/til-ansatte-og-samarbejdspartnere/ambuflex/om-ambuflex/in-english/" target="_blank" rel="noopener" class="text-research hover:underline">AmbuFlex</a>')
     // Restore already-bold items that got double-escaped
     .replace(/&lt;strong&gt;/g, '<strong>').replace(/&lt;\/strong&gt;/g, '</strong>');
   return html;

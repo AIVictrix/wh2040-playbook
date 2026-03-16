@@ -2698,6 +2698,7 @@ function LoopView({ activities, onSelect }) {
             key={flow.name}
             onMouseEnter={() => setHoveredFlow(flow)}
             onMouseLeave={() => setHoveredFlow(null)}
+            onClick={() => setHoveredFlow(f => f?.name === flow.name ? null : flow)}
             className={`text-xs px-3 py-1.5 rounded-full border-2 transition-all cursor-pointer ${hoveredFlow?.name === flow.name ? 'shadow-md scale-105' : 'opacity-70 hover:opacity-100'}`}
             style={{ borderColor: flow.color, color: flow.color, backgroundColor: hoveredFlow?.name === flow.name ? flow.color + '15' : 'white' }}
           >
@@ -2706,28 +2707,43 @@ function LoopView({ activities, onSelect }) {
         ))}
       </div>
 
-      {/* Three columns */}
-      <div className="grid grid-cols-3 gap-3">
+      {/* Three columns — desktop grid, mobile stacked */}
+      <div className="hidden md:grid grid-cols-3 gap-3">
+        {stageConfig.map((stage) => (
+          <div key={stage.key} className={`${stage.lightBg} rounded-xl p-3 border ${stage.borderColor}`}>
+            <div className="flex items-center gap-2 mb-3">
+              <div className={`w-2.5 h-2.5 rounded-full ${stage.color}`} />
+              <span className="text-sm font-bold text-gray-800">{stage.label}</span>
+            </div>
+            <div className="space-y-1.5">
+              {stages[stage.key].map(a => (
+                <ActivityCard key={a.code} activity={a} onClick={onSelect} highlighted={flowCodes.includes(a.code)} dimmed={hoveredFlow && !flowCodes.includes(a.code)} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="md:hidden space-y-3">
         {stageConfig.map((stage, idx) => (
-          <React.Fragment key={stage.key}>
+          <div key={stage.key}>
             <div className={`${stage.lightBg} rounded-xl p-3 border ${stage.borderColor}`}>
-              <div className="flex items-center gap-2 mb-3">
+              <div className="flex items-center gap-2 mb-2">
                 <div className={`w-2.5 h-2.5 rounded-full ${stage.color}`} />
                 <span className="text-sm font-bold text-gray-800">{stage.label}</span>
+                <span className="text-[10px] text-gray-400 ml-auto">{stages[stage.key].length} activities</span>
               </div>
-              <div className="space-y-1.5">
+              <div className="grid grid-cols-2 gap-1.5">
                 {stages[stage.key].map(a => (
-                  <ActivityCard
-                    key={a.code}
-                    activity={a}
-                    onClick={onSelect}
-                    highlighted={flowCodes.includes(a.code)}
-                    dimmed={hoveredFlow && !flowCodes.includes(a.code)}
-                  />
+                  <ActivityCard key={a.code} activity={a} onClick={onSelect} highlighted={flowCodes.includes(a.code)} dimmed={hoveredFlow && !flowCodes.includes(a.code)} />
                 ))}
               </div>
             </div>
-          </React.Fragment>
+            {idx < stageConfig.length - 1 && (
+              <div className="flex justify-center py-1">
+                <span className="text-gray-300 text-lg">↓</span>
+              </div>
+            )}
+          </div>
         ))}
       </div>
 

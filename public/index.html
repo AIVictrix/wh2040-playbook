@@ -2839,35 +2839,39 @@ function FocusCards({ filters, setFilters, activeFocus, setActiveFocus }) {
 
   if (activeFocus !== null) {
     const fa = FOCUS_AREAS[activeFocus];
+    const dc = DOMAIN_COLORS[fa.icon] || DOMAIN_COLORS.Awareness;
     return (
-      <div className="flex items-center gap-2 py-2 no-print">
-        <span className="text-xs text-white/70">Showing:</span>
-        <span className="inline-flex items-center gap-1.5 text-xs font-medium bg-white/15 text-white rounded-full px-3 py-1">
-          <img src={ICON_MAP[fa.icon]} alt="" style={{width:14,height:14,filter:'brightness(0) invert(1)'}} />
+      <div className="flex items-center gap-2 mb-3 no-print">
+        <span className="text-xs text-gray-500">Showing:</span>
+        <span className={`inline-flex items-center gap-1.5 text-xs font-medium ${dc.badge} rounded-full px-3 py-1`}>
+          <img src={ICON_MAP[fa.icon]} alt="" style={{width:14,height:14}} />
           {fa.label}
         </span>
-        <button onClick={clearFocus} className="text-xs text-white/50 hover:text-white underline">Show all</button>
+        <button onClick={clearFocus} className="text-xs text-gray-400 hover:text-gray-600 underline">Show all</button>
       </div>
     );
   }
 
   return (
-    <div className="py-3 no-print">
-      <p className="text-xs text-white/50 mb-2">I want to explore activities for my role:</p>
-      <div className="flex md:grid md:grid-cols-3 lg:grid-cols-6 gap-2 overflow-x-auto pb-1 -mx-1 px-1 snap-x snap-mandatory md:overflow-visible md:pb-0 md:mx-0 md:px-0">
-        {FOCUS_AREAS.map((fa, i) => (
-          <button
-            key={i}
-            onClick={() => handleClick(fa, i)}
-            className="group text-left bg-white/10 hover:bg-white/20 border border-white/15 hover:border-white/30 rounded-lg px-3 py-2.5 transition-all flex flex-col items-start min-w-[160px] snap-start md:min-w-0"
-          >
-            <div className="flex items-start gap-1.5 mb-1">
-              <img src={ICON_MAP[fa.icon]} alt="" style={{width:16,height:16,flexShrink:0,filter:'brightness(0) invert(1)',marginTop:1}} />
-              <span className="text-xs font-semibold text-white leading-tight">{fa.label}</span>
-            </div>
-            <span className="text-[10px] text-white/50 leading-tight pl-[22px]">{fa.sub}</span>
-          </button>
-        ))}
+    <div className="mb-3 no-print">
+      <p className="text-xs text-gray-400 mb-2">I want to explore activities for my role:</p>
+      <div className="flex flex-nowrap md:grid md:grid-cols-3 lg:grid-cols-6 gap-2 overflow-x-auto pb-2 md:overflow-visible md:pb-0" style={{WebkitOverflowScrolling:'touch'}}>
+        {FOCUS_AREAS.map((fa, i) => {
+          const dc = DOMAIN_COLORS[fa.icon] || DOMAIN_COLORS.Awareness;
+          return (
+            <button
+              key={i}
+              onClick={() => handleClick(fa, i)}
+              className={`group text-left bg-white hover:shadow-md border ${dc.border} rounded-lg px-3 py-2.5 transition-all flex flex-col items-start shrink-0 w-[160px] md:w-auto md:shrink`}
+            >
+              <div className="flex items-start gap-1.5 mb-1">
+                <img src={ICON_MAP[fa.icon]} alt="" style={{width:16,height:16,flexShrink:0,marginTop:1}} />
+                <span className={`text-xs font-semibold ${dc.text} leading-tight`}>{fa.label}</span>
+              </div>
+              <span className="text-[10px] text-gray-400 leading-tight pl-[22px]">{fa.sub}</span>
+            </button>
+          );
+        })}
       </div>
     </div>
   );
@@ -2938,8 +2942,8 @@ function App() {
             <div className="flex items-center gap-3">
               <img src={WH2040_LOGO} alt="WH2040" className="w-10 h-10" />
               <div>
-                <h1 className="text-lg font-bold text-white">Nordic Charter for Women's Health 2040</h1>
-                <p className="text-xs text-research-light mt-0.5">28 Activities — Implementation Playbook</p>
+                <h1 className="text-sm md:text-lg font-bold text-white leading-tight">Nordic Charter for Women's Health 2040</h1>
+                <p className="text-[10px] md:text-xs text-research-light mt-0.5 hidden sm:block">28 Activities — Implementation Playbook</p>
               </div>
               <img src="WH2040_framework_icon.png" alt="WH2040 Framework" className="hidden md:block ml-auto" style={{width:'80px',height:'auto',opacity:0.8}} />
             </div>
@@ -2948,20 +2952,20 @@ function App() {
                 <button
                   key={v.id}
                   onClick={() => setView(v.id)}
-                  className={`text-xs px-3 py-1.5 rounded-md transition-all font-medium ${view === v.id ? 'bg-white shadow text-navy' : 'text-white/70 hover:text-white'}`}
+                  className={`text-xs px-2 md:px-3 py-1.5 rounded-md transition-all font-medium ${view === v.id ? 'bg-white shadow text-navy' : 'text-white/70 hover:text-white'}`}
                 >
-                  <span className="mr-1">{v.icon}</span>{v.label}
+                  <span className="mr-1">{v.icon}</span><span className="hidden sm:inline">{v.label}</span>
                 </button>
               ))}
             </div>
           </div>
-          <FocusCards filters={filters} setFilters={setFilters} activeFocus={activeFocus} setActiveFocus={setActiveFocus} />
           <FilterBar filters={filters} setFilters={setFilters} setActiveFocus={setActiveFocus} totalCount={ACTIVITIES.length} filteredCount={filtered.length} />
         </div>
       </header>
 
       {/* Content */}
       <main className="max-w-7xl mx-auto px-4 py-4">
+        <FocusCards filters={filters} setFilters={setFilters} activeFocus={activeFocus} setActiveFocus={setActiveFocus} />
         {view === 'grid' && <GridView activities={filtered} onSelect={setSelectedActivity} highlightedCodes={highlightedCodes} />}
         {view === 'loop' && <LoopView activities={filtered} onSelect={setSelectedActivity} />}
         {view === 'list' && <ListView activities={filtered} onSelect={setSelectedActivity} />}

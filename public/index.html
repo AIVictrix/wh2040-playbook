@@ -3013,18 +3013,24 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-8 py-5 text-center text-xs text-gray-500 no-print" style={{borderTop:'3px solid #4A8F8F'}}>
-        <div className="flex items-center justify-center gap-2 mb-2">
-          <img src={WH2040_LOGO} alt="WH2040" className="w-7 h-7" />
-          <strong className="text-navy">Nordic Charter for Women's Health 2040</strong>
+      <footer className="mt-8 py-6 no-print" style={{borderTop:'3px solid #4A8F8F'}}>
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
+            <div className="flex items-center gap-2 shrink-0">
+              <img src={WH2040_LOGO} alt="WH2040" className="w-8 h-8" />
+              <strong className="text-sm text-navy">Women's Health 2040</strong>
+            </div>
+            <div className="flex-1 text-center sm:text-left text-xs text-gray-500 space-y-1">
+              <p className="italic text-gray-400">"Health as birthright, not benefit."</p>
+              <p>Open commons framework · CC BY 4.0 · Produced by Scita Health ApS</p>
+            </div>
+            <div className="flex flex-col items-center sm:items-end gap-1 text-xs shrink-0">
+              <a href="https://womenshealth2040.org" target="_blank" rel="noopener" className="text-research hover:text-research-dark" style={{textDecoration:'none'}}>womenshealth2040.org</a>
+              <a href="mailto:hello@womenshealth2040.org" className="text-research hover:text-research-dark" style={{textDecoration:'none'}}>hello@womenshealth2040.org</a>
+              <span className="text-gray-400">#WomensHealth2040</span>
+            </div>
+          </div>
         </div>
-        <p className="mb-1">Open commons framework — "Health as birthright, not benefit."</p>
-        <p>
-          <a href="https://womenshealth2040.org" target="_blank" rel="noopener" className="text-research hover:text-research-light" style={{textDecoration:'none'}}>womenshealth2040.org</a>
-          {' · '}<a href="mailto:hello@womenshealth2040.org" className="text-research hover:text-research-light" style={{textDecoration:'none'}}>hello@womenshealth2040.org</a>
-          {' · '}#WomensHealth2040
-        </p>
-        <p className="mt-1">Produced by Scita Health ApS · CC BY 4.0</p>
       </footer>
 
       {/* Detail panel */}

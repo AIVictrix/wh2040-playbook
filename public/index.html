@@ -2582,48 +2582,73 @@ function GridView({ activities, onSelect, highlightedCodes }) {
   const awarenessItems = activities.filter(a => a.domain === "Awareness");
   const loopRoleMap = { Research:"Produce", Care:"Adopt", Innovation:"Translate" };
 
+  // All domain activities flat for mobile
+  const domainActivities = useMemo(() => {
+    const result = {};
+    DOMAINS.forEach(d => { result[d] = activities.filter(a => a.domain === d); });
+    return result;
+  }, [activities]);
+
   return (
     <div className="space-y-3">
-      {/* Column headers */}
-      <div className="grid grid-cols-[140px_repeat(4,1fr)] gap-2">
-        <div />
-        {PILLARS.map(p => (
-          <div key={p} className="text-center text-sm font-semibold text-gray-600 py-1.5 flex items-center justify-center gap-1.5">
-            <DomainIcon name={p} size={20} />{p}
-          </div>
-        ))}
+      {/* ── Desktop: 5-column grid (hidden on mobile) ── */}
+      <div className="hidden md:block space-y-3">
+        <div className="grid grid-cols-[140px_repeat(4,1fr)] gap-2">
+          <div />
+          {PILLARS.map(p => (
+            <div key={p} className="text-center text-sm font-semibold text-gray-600 py-1.5 flex items-center justify-center gap-1.5">
+              <DomainIcon name={p} size={20} />{p}
+            </div>
+          ))}
+        </div>
+        {DOMAINS.map(domain => {
+          const dc = DOMAIN_COLORS[domain];
+          return (
+            <div key={domain} className="grid grid-cols-[140px_repeat(4,1fr)] gap-2">
+              <div className={`${dc.bg} rounded-lg p-3 flex flex-col justify-center border ${dc.border}`}>
+                <span className={`text-sm font-bold ${dc.text} flex items-center gap-1.5`}><DomainIcon name={domain} size={22} />{domain}</span>
+                <span className="text-[10px] text-gray-500 uppercase tracking-wider mt-0.5">{loopRoleMap[domain]}</span>
+              </div>
+              {PILLARS.map(pillar => (
+                <div key={pillar} className="bg-white rounded-lg p-2 min-h-[80px] space-y-1.5 border border-gray-100">
+                  {grid[domain][pillar].map(a => (
+                    <ActivityCard key={a.code} activity={a} onClick={onSelect} highlighted={highlightedCodes?.includes(a.code)} dimmed={false} />
+                  ))}
+                  {grid[domain][pillar].length === 0 && (
+                    <div className="h-full flex items-center justify-center text-gray-300 text-xs">—</div>
+                  )}
+                </div>
+              ))}
+            </div>
+          );
+        })}
       </div>
 
-      {/* Domain rows */}
-      {DOMAINS.map(domain => {
-        const dc = DOMAIN_COLORS[domain];
-        return (
-          <div key={domain} className="grid grid-cols-[140px_repeat(4,1fr)] gap-2">
-            <div className={`${dc.bg} rounded-lg p-3 flex flex-col justify-center border ${dc.border}`}>
-              <span className={`text-sm font-bold ${dc.text} flex items-center gap-1.5`}><DomainIcon name={domain} size={22} />{domain}</span>
-              <span className="text-[10px] text-gray-500 uppercase tracking-wider mt-0.5">{loopRoleMap[domain]}</span>
-            </div>
-            {PILLARS.map(pillar => (
-              <div key={pillar} className="bg-white rounded-lg p-2 min-h-[80px] space-y-1.5 border border-gray-100">
-                {grid[domain][pillar].map(a => (
-                  <ActivityCard
-                    key={a.code}
-                    activity={a}
-                    onClick={onSelect}
-                    highlighted={highlightedCodes?.includes(a.code)}
-                    dimmed={false}
-                  />
-                ))}
-                {grid[domain][pillar].length === 0 && (
-                  <div className="h-full flex items-center justify-center text-gray-300 text-xs">—</div>
-                )}
+      {/* ── Mobile: stacked domain sections (hidden on desktop) ── */}
+      <div className="md:hidden space-y-4">
+        {DOMAINS.map(domain => {
+          const dc = DOMAIN_COLORS[domain];
+          const items = domainActivities[domain];
+          if (items.length === 0) return null;
+          return (
+            <div key={domain}>
+              <div className={`${dc.bg} rounded-lg px-3 py-2 border ${dc.border} flex items-center gap-2 mb-2`}>
+                <DomainIcon name={domain} size={20} />
+                <span className={`text-sm font-bold ${dc.text}`}>{domain}</span>
+                <span className="text-[10px] text-gray-500 uppercase tracking-wider">{loopRoleMap[domain]}</span>
+                <span className="text-[10px] text-gray-400 ml-auto">{items.length} activities</span>
               </div>
-            ))}
-          </div>
-        );
-      })}
+              <div className="grid grid-cols-2 gap-2">
+                {items.map(a => (
+                  <ActivityCard key={a.code} activity={a} onClick={onSelect} highlighted={highlightedCodes?.includes(a.code)} dimmed={false} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
 
-      {/* Awareness strip */}
+      {/* Awareness strip (shared) */}
       <div id="awareness-foundation" className={`bg-awareness-light rounded-lg p-4 border border-awareness`}>
         <div className="flex items-center gap-2 mb-3">
           <span className="text-sm font-bold text-awareness-dark flex items-center gap-1.5"><DomainIcon name="Awareness" size={22} /> Awareness Foundation</span>

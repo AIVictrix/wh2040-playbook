@@ -1,20 +1,11 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "public",
-  "headers": [
+  "redirects": [
     {
-      "source": "/(.*).html",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=60, must-revalidate" }
-      ]
-    },
-    {
-      "source": "/(.*).png",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=86400" }
-      ]
+      "source": "/:path*",
+      "destination": "https://womenshealth2040.org/playbook",
+      "permanent": true
     }
-  ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

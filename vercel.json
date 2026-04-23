@@ -3,7 +3,12 @@
   "outputDirectory": "public",
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/",
+      "destination": "https://womenshealth2040.org/playbook",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
       "destination": "https://womenshealth2040.org/playbook",
       "permanent": true
     }

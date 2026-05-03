@@ -72,7 +72,18 @@
         "description": "Career programme graduates staff Centres of Excellence"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "NordForsk",
+      "Forte centres",
+      "BIRCWH",
+      "CIHR SGBA+",
+      "Marie Skłodowska-Curie",
+      "postdoctoral fellowship",
+      "sex-stratified methodology",
+      "research training",
+      "women's health career"
+    ]
   },
   {
     "code": "R-P-2",
@@ -155,7 +166,17 @@
         "description": "Discipline attraction funding brings new talent into centres"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "Forte SEK 255M",
+      "WHOLE Uppsala",
+      "MAMA Linköping",
+      "CIRCE Lund",
+      "NIH SCOR",
+      "centre of excellence",
+      "interdisciplinary research",
+      "research centre"
+    ]
   },
   {
     "code": "R-M-1",
@@ -221,7 +242,17 @@
         "description": "Catalytic Fund provides next-stage funding for cross-disciplinary projects"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "cross-disciplinary funding",
+      "preclinical models",
+      "mentorship pairing",
+      "research call",
+      "discipline attraction",
+      "Forte",
+      "female preclinical models",
+      "subgroup analysis"
+    ]
   },
   {
     "code": "R-M-2",
@@ -296,7 +327,17 @@
         "description": "Guideline Council defines 'Unsolved Clinical Problems' that become Catalytic Fund 'Targeted Calls'"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "NordForsk virtual pot",
+      "joint call",
+      "cross-border research",
+      "Denmark 160M DKK",
+      "IHI co-investment",
+      "EIT Health",
+      "catalytic fund",
+      "research council"
+    ]
   },
   {
     "code": "R-M-3",
@@ -366,7 +407,17 @@
         "description": "Catalytic Fund demonstrates Nordic research capacity that justifies EU investment"
       }
     ],
-    "horizon": "medium"
+    "horizon": "medium",
+    "keywords": [
+      "Horizon Europe",
+      "FP10",
+      "Women's Health Mission",
+      "EU Cancer Mission",
+      "gender dimension",
+      "framework programme",
+      "ex-aequo tiebreaker",
+      "EU partnership"
+    ]
   },
   {
     "code": "R-Po-1",
@@ -436,7 +487,17 @@
         "description": "Finance Ministries need rigorous sex-stratified evidence to approve new payment models"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "SAGER guidelines",
+      "CIHR SGBA+",
+      "NIH SABV",
+      "Vetenskapsrådet",
+      "sex-disaggregated analysis",
+      "EU Clinical Trials Regulation",
+      "sex-stratified mandate",
+      "funder requirement"
+    ]
   },
   {
     "code": "R-Po-2",
@@ -502,7 +563,16 @@
         "description": "Attracted researchers need career sustainability"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "academic promotion",
+      "tenure criteria",
+      "publication metrics",
+      "structural bias",
+      "university faculty",
+      "promotion reform",
+      "research evaluation"
+    ]
   },
   {
     "code": "R-Po-3",
@@ -567,7 +637,17 @@
         "description": "Same advocacy, funding framing — policy and money tracks reinforce each other"
       }
     ],
-    "horizon": "medium"
+    "horizon": "medium",
+    "keywords": [
+      "FP10",
+      "Nordic position paper",
+      "EU Cancer Mission",
+      "NCM",
+      "Nordic Council of Ministers",
+      "framework programme",
+      "coordinated advocacy",
+      "research ministry"
+    ]
   },
   {
     "code": "R-D-1",
@@ -648,7 +728,20 @@
         "description": "Federated Cohort requires common data standards"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "EHDEN",
+      "OMOP CDM",
+      "OHDSI",
+      "EHDS",
+      "FAIR principles",
+      "data dictionary",
+      "registry harmonisation",
+      "Common Data Model",
+      "implementing acts",
+      "Article 51",
+      "sex-disaggregated"
+    ]
   },
   {
     "code": "R-D-2",
@@ -722,7 +815,18 @@
         "description": "Intelligence Layer trained on federated cohort data"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "MoBa",
+      "NSHDS",
+      "FinnGen",
+      "deCODE",
+      "federated cohort",
+      "hormonal biomarkers",
+      "menstrual cycle tracking",
+      "registry linkage",
+      "Nordic Biobank Network"
+    ]
   },
   {
     "code": "R-D-3",
@@ -792,7 +896,18 @@
         "description": "Federated Cohort provides validation data"
       }
     ],
-    "horizon": "medium"
+    "horizon": "medium",
+    "keywords": [
+      "FEMaLe Project",
+      "EuroLLM",
+      "OpenEuroLLM",
+      "LLMs4Europe",
+      "AI bias detection",
+      "menstrual cycle phase",
+      "pregnancy-safe model",
+      "open-source ML toolkit",
+      "sex-difference algorithm"
+    ]
   },
   {
     "code": "C-P-1",
@@ -863,7 +978,19 @@
         "description": "Guidelines define what HCPs need to know; education builds capability to deliver"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "NFOG",
+      "NFGP",
+      "CME credit",
+      "CPD credit",
+      "micro-module",
+      "England Women's Health curriculum",
+      "Charité Gender Medicine",
+      "menopause training",
+      "GP competence",
+      "specialist training"
+    ]
   },
   {
     "code": "C-P-2",
@@ -933,7 +1060,17 @@
         "description": "Health economics data quantifies burden; campaigns make it visible"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "public health campaign",
+      "UK Women's Health Strategy",
+      "help-seeking",
+      "menopause awareness",
+      "female CVD symptoms",
+      "diagnostic delay",
+      "patient organisation campaign",
+      "multilingual outreach"
+    ]
   },
   {
     "code": "C-M-1",
@@ -1009,7 +1146,17 @@
         "description": "Sex-stratified evidence legitimises payment model design"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "VBHC",
+      "value-based healthcare",
+      "SVEUS",
+      "Stockholm bundled care",
+      "Västra Götaland VBHC",
+      "DRG quality indicator",
+      "quality-adjusted payment",
+      "regional reimbursement pilot"
+    ]
   },
   {
     "code": "C-M-2",
@@ -1079,7 +1226,18 @@
         "description": "Investment Guidelines create demand; health economics demonstrates ROI"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "NICE methodology",
+      "cost-effectiveness analysis",
+      "Folkehelseinstituttet",
+      "TLV",
+      "DEFACTUM",
+      "THL",
+      "HTA body",
+      "economic burden",
+      "parliamentary briefing"
+    ]
   },
   {
     "code": "C-Po-1",
@@ -1159,7 +1317,18 @@
         "description": "Intelligence Layer enables sophisticated PROM analysis"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "FINRISK",
+      "NORRISK2",
+      "SCORE2",
+      "ESHRE",
+      "Sweden menopause guidelines (Oct 2025)",
+      "UK Women's Health Hubs",
+      "living guideline",
+      "EHR integration",
+      "clinical guideline harmonisation"
+    ]
   },
   {
     "code": "C-Po-2",
@@ -1225,7 +1394,17 @@
         "description": "Registry integration tracks pathway compliance"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "diagnostic waiting time",
+      "referral criteria",
+      "UK Women's Health Hubs",
+      "ICS integrated care",
+      "pathway performance metric",
+      "PROM collection point",
+      "handoff protocol",
+      "care pathway standard"
+    ]
   },
   {
     "code": "C-D-1",
@@ -1310,7 +1489,20 @@
         "description": "PROM data feeds federated cohort for research"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "MENQOL",
+      "BPI",
+      "HeartQoL",
+      "EQ-5D-5L",
+      "SwePROM",
+      "AmbuFlex",
+      "PERFECT project",
+      "Danish National PRO Programme",
+      "patient-reported outcome",
+      "quality registry",
+      "Norway WH Strategy NOK 150M"
+    ]
   },
   {
     "code": "C-D-2",
@@ -1385,7 +1577,17 @@
         "description": "Registry data feeds federated cohort research"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "quality registry",
+      "sex-disaggregation mandate",
+      "Swedish Biobank Register",
+      "Danish National Biobank",
+      "PROM-to-registry integration",
+      "consent model",
+      "registry linkage",
+      "outcome reporting by sex"
+    ]
   },
   {
     "code": "I-P-1",
@@ -1465,7 +1667,19 @@
         "description": "Intelligence Layer requires data standards ambassadors advocate for"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "HL7 Europe FHIR",
+      "EHDS implementing acts",
+      "NordDEC",
+      "MyHealth@MyHands",
+      "CEN",
+      "standards body",
+      "Article 51",
+      "technical working group",
+      "March 2027 deadline",
+      "data ambassador"
+    ]
   },
   {
     "code": "I-M-1",
@@ -1541,7 +1755,18 @@
         "description": "Sandbox provides de-risking; guidelines create funding signal"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "femtech",
+      "IHI",
+      "EIT Health",
+      "venture capital",
+      "Nordic Innovation",
+      "50% allocation",
+      "co-funding incentive",
+      "digital health VC",
+      "investment guideline"
+    ]
   },
   {
     "code": "I-M-2",
@@ -1611,7 +1836,17 @@
         "description": "Toolkit proves impact, justifying 50% funding allocation"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "Micro-KPI",
+      "OECD SROI",
+      "EU SROI",
+      "Grand Challenges",
+      "equity reach",
+      "time-to-evidence",
+      "EIT Health Scandinavia",
+      "impact measurement toolkit"
+    ]
   },
   {
     "code": "I-Po-1",
@@ -1687,7 +1922,18 @@
         "description": "Sandbox evidence justifies reimbursement"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "EU AI Act Article 57",
+      "MHRA AI Airlock",
+      "STANDING Together",
+      "Datatilsynet",
+      "Digitaliseringsstyrelsen",
+      "Traficom",
+      "BrainCapture precedent",
+      "regulatory sandbox",
+      "Article 57 deadline (Aug 2026)"
+    ]
   },
   {
     "code": "I-D-1",
@@ -1773,7 +2019,19 @@
         "description": "AI tools feed into clinical guidelines"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "RADAR-base",
+      "MyHealth@MyHands",
+      "FEMaLe Project",
+      "EuroLLM",
+      "OpenEuroLLM",
+      "digital twin",
+      "AI reasoning infrastructure",
+      "FEGA",
+      "NeIC Nordic AI Union",
+      "Sitra VALO2"
+    ]
   },
   {
     "code": "A-1",
@@ -1849,7 +2107,16 @@
         "description": "Creates public legitimacy for policy mandates"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "WHO health literacy",
+      "Nordic Welfare Centre",
+      "NOMESCO",
+      "NOSOSCO",
+      "literacy standard",
+      "life-stage benchmark",
+      "knowledge expectation"
+    ]
   },
   {
     "code": "A-2",
@@ -1925,7 +2192,17 @@
         "description": "Creates demand for WH expertise across domains"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "UK RSHE",
+      "school curriculum",
+      "university programme",
+      "mandatory education",
+      "workplace training",
+      "clinical re-credentialing",
+      "hormonal stage education",
+      "life-course pipeline"
+    ]
   },
   {
     "code": "A-3",
@@ -1996,7 +2273,17 @@
         "description": "Creates market incentive for employer WH investment"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "ESG reporting",
+      "EU CSRD Omnibus",
+      "menopause absenteeism (£11B)",
+      "materiality assessment",
+      "employer association",
+      "gender-equality reporting",
+      "corporate health KPI",
+      "menopause-at-work"
+    ]
   },
   {
     "code": "A-4",
@@ -2072,6 +2359,16 @@
         "description": "Cultural legitimacy that determines whether any infrastructure succeeds"
       }
     ],
-    "horizon": "short"
+    "horizon": "short",
+    "keywords": [
+      "plain-language",
+      "multilingual",
+      "public library",
+      "municipal health service",
+      "no wrong door",
+      "NGO",
+      "patient organisation",
+      "Nordic Welfare Centre"
+    ]
   }
 ]
